@@ -466,7 +466,6 @@
                             <div class="lower_portion_wrapper">
                                 <div class="lower_portion">
                                     <h4>{{ $post->title }}</h4>
-                                    <p class="text-size-18 content-limit">{{ $post->content }}</p>
                                     <a class="read_more text-decoration-none" href="{{ '/post/'.$post->slug }}">Read More
                                         <figure class="arrow mb-0"><img src="./assets/images/blog-arrow.png" alt="" class="img-fluid"></figure>
                                     </a>
