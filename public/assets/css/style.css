@@ -432,10 +432,10 @@ p {
 } 
 .service-section .service_contentbox .service-box figure {
     background: var(--e-global-color-very-pale-orange);
-    border-radius: 100px;
-    height: 100px;
-    width: 100px;
-    line-height: 100px;
+    border-radius: 80px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
     text-align: center;
     margin-bottom: 20px;
     display: inline-block;
@@ -2786,4 +2786,8 @@ p {
     overflow: hidden; /* Ẩn phần nội dung vượt quá chiều rộng của phần tử */
     text-overflow: ellipsis; /* Hiển thị dấu "..." khi vượt quá độ dài giới hạn */
     width: 350px; /* Chiều rộng của phần tử */
+}
+.banner-logo img{
+    width: 100px;
+    height: 100px;
 }

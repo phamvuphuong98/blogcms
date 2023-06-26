@@ -11,7 +11,7 @@
                 <div class="col-lg-4 col-md-5 col-sm-6 col-12">
                     <div class="first-column">
                         <a href="./index.html">
-                            <figure class="footer-logo">
+                            <figure class="footer-logo banner-logo">
                                 <img src="{{ asset('assets/images/lgo.png') }}" class="img-fluid" alt="">
                             </figure>
                         </a>
@@ -55,7 +55,7 @@
                     <div class="icons">
                         <h4 class="heading mb-0 text-white">Subscribe to</h4>
                         <h4 class="heading text-white">Our Newsletter Today!</h4>
-                        <p class="text-size-18 footer-text text-white">Exerci tation ullamcorper suscipit lobor nisl aliuie naro commodo.</p>
+                        <p class="text-size-18 footer-text text-white">Please leave your email so that we can provide you with specific advice</p>
                         <form id="contactpage1" method="POST" action="./contact-form.php">
                             <div class="form-group mb-0">
                                 <input type="text" class="form_style" placeholder="Enter Email Address:" name="email"> 
@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="row copyright-border">
                     <div class="col-lg-6 col-md-6 col-sm-12 co-12 column">
-                        <p class="text-size-16">Copyright ©2023 Technofy.com All Rights Reserved</p>
+                        <p class="text-size-16">Copyright ©2023 jasonprivatelabel.com All Rights Reserved</p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 co-12 d-md-block d-none">
                         <div class="social-icons position-relative">

@@ -24,7 +24,7 @@ class StoreTagRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['required', 'unique:tags', 'min:3', 'max:25'],
+            'name' => ['required', 'unique:tags', 'min:3', 'max:255'],
         ];
     }
 }

@@ -200,7 +200,7 @@ p {font-size: 18px; line-height: 28px;}
 .service-section .service-rightlayer img {width: 170px;}
 .service-section .service-dotimage {left: -8px; bottom: 90px;}
 .service-section .service-dotimage img{width: 130px;}
-.service-section .service_contentbox .service-box {padding: 20px 12px; margin-bottom: -15px;}
+.service-section .service_contentbox .service-box {padding: 20px 12px; margin-bottom: -15px;width: 100%;}
 .service-section .service_contentbox .service-box figure {height: 90px; width: 90px; line-height: 90px; margin-bottom: 15px;}
 .service-section .service_contentbox .service-box figure img{width: 52px;}
 .service-section .service-box h4 {padding-right: 65px; margin-bottom: 4px;}

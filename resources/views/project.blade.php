@@ -8,7 +8,7 @@
                             <img src="./assets/images/service-rightcircle.png" alt="" class="img-fluid">
                         </figure>
                         <h1 class="text-white">OUR PROJECTS</h1>
-                        <p>Eoidunt eget semper nec ruam sed hendrerit morbi ac feliseao augue pellentesue morbi acer.</p>
+                        <p>Below are some of our passion projects aimed at meeting customer needs and satisfaction</p>
                         <div class="box">
                             <span class="mb-0">Home</span>
                             <figure class="mb-0 arrow"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
@@ -35,9 +35,7 @@
             <div class="col-12">
                 <div class="project_content" data-aos="fade-right">
                     <h6>RECENT PROJECTS</h6>
-                    <h2>Our Latest Case Studies</h2>
-                    <!-- <p>Dursus mal suada faci lisis lorem ipsum dolarorit more ame ion consectetur elit vesti at bulum nec
-                        odio aea the dumm recreo that dolocons.</p> -->
+                    <h2>Our Latest Projects</h2>
                     <figure class="offer-circleimage mb-0">
                         <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
                     </figure>

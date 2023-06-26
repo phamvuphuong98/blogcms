@@ -14,23 +14,62 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="service-box box-mb">
-                                <figure class="service-marketicon">
-                                    <img src="./assets/images/listing.png" width="57px" alt="" class="img-fluid">
-                                </figure> 
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <figure class="service-marketicon">
+                                        <img src="./assets/images/listing.png" width="45px" alt="" class="img-fluid">
+                                    </figure> 
+                                    <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                </div>
                                 <h4>Listing Copywriting</h4>
-                                <p class="text-size-18">Listing copywriting creates persuasive descriptions to attract customers and increase sales. It also optimizes search engines for easy product discovery.</p>
-                                <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                <ul class="text-left">
+                                    <li>
+                                        <span>Listing copywriting</span>
+                                    </li>
+                                    <li>
+                                        <span>SEO Optimization</span>
+                                    </li>
+                                    <li>
+                                        <span>Competitive research</span>
+                                    </li>
+                                    <li>
+                                        <span>Title, Bullet points</span>
+                                    </li>
+                                    <li>
+                                        <span>Backend keywords</span>
+                                    </li>
+                                    <li>
+                                        <span>Product Description</span>
+                                    </li>
+                                </ul>
                             </div>   
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="box-top">
                                 <div class="service-box box-mb">
-                                    <figure class="service-producticon">
-                                        <img src="./assets/images/producticon.png" width="57px" alt="" class="img-fluid">
-                                    </figure>
+                                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                                        <figure class="service-producticon">
+                                            <img src="./assets/images/producticon.png" width="45px" alt="" class="img-fluid">
+                                        </figure>
+                                        <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                    </div>
                                     <h4>Product Photography and Video</h4>
-                                    <p class="text-size-18">JPL takes pride in our skilled team of photographers who specialize in shooting diverse product ranges.</p>
-                                    <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                    <ul class="text-left">
+                                        <li>
+                                            <span>White Background Studio Images</span>
+                                        </li>
+                                        <li>
+                                            <span>Photo Manipulation Lifestyle Images</span>
+                                        </li>
+                                        <li>
+                                            <span>Amazon Infographic Images</span>
+                                        </li>
+                                        <li>
+                                            <span>Profession Unbox-Review video with Model</span>
+                                        </li>
+                                        <li>
+                                            <span>Product Shots with Text Effects</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -38,23 +77,47 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="service-box">
-                                <figure class="service-designicon">
-                                    <img src="./assets/images/Optimizing.png" width="57px" alt="" class="img-fluid">
-                                </figure>
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <figure class="service-designicon">
+                                        <img src="./assets/images/Optimizing.png" width="45px" alt="" class="img-fluid">
+                                    </figure>
+                                    <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                </div>
                                 <h4>A+ Content Optimizing</h4>
-                                <p class="text-size-18">A+ Content enables sellers to create personalized product pages with extensions, supplementary information, and captivating images that go beyond standard product descriptions.</p>
-                                <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                <ul class="text-left">
+                                    <li>
+                                        <span>Images for A+ Content</span>
+                                    </li>
+                                    <li>
+                                        <span>Images for Brand Story</span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="box-top">
                                 <div class="service-box">
-                                    <figure class="service-dataicon">
-                                        <img src="./assets/images/Others.png" width="57px" alt="" class="img-fluid">
-                                    </figure>
+                                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                                        <figure class="service-dataicon">
+                                            <img src="./assets/images/Others.png" width="45px" alt="" class="img-fluid">
+                                        </figure>
+                                        <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                    </div>
                                     <h4>Others Service</h4>
-                                    <p class="text-size-18">Websites, Marketing Services, AI Brand Design, Amazon Service Review.</p>
-                                    <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                    <ul class="text-left">
+                                        <li>
+                                            <span>Websites</span>
+                                        </li>
+                                        <li>
+                                            <span>Marketing Services</span>
+                                        </li>
+                                        <li>
+                                            <span>AI Brand Design</span>
+                                        </li>
+                                        <li>
+                                            <span>Review Product</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -85,6 +148,59 @@
     </div>
     <figure class="service-rightlayer mb-0">
         <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
+    </figure>
+</section>
+<!-- About Us -->
+<section class="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-2">
+                <div class="about_wrapper">
+                    <figure class="mb-0 about-image1">
+                        <img src="./assets/images/about-image1.jpg" alt="" class="">
+                    </figure>
+                    <figure class="mb-0 about-image2">
+                        <img src="./assets/images/about-image2.jpg" alt="" class="img-fluid">
+                    </figure>
+                    <div class="image-circle">
+                        <div class="years">
+                            <span class="text-white value counter">30</span>
+                            <sup class="text-white mb-0 plus">+</sup>
+                            <span class="text-white text">Years of Experience</span>
+                        </div>
+                        <figure class="mb-0 about-imagecircle">
+                            <img src="./assets/images/about-imagecircle.png" alt="" class="">
+                        </figure>
+                    </div>
+                    <figure class="mb-0 about-dot">
+                        <img src="./assets/images/about-dot.png" alt="" class="img-fluid">
+                    </figure>
+                    <figure class="mb-0 about-leftcircle">
+                        <img src="./assets/images/about-leftcircle.png" alt="" class="img-fluid">
+                    </figure>
+                    <figure class="mb-0 about-layer">
+                        <img src="./assets/images/about-layer.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-1">
+                <div class="about_content" data-aos="fade-right">
+                    <h6>About us</h6>
+                    <h2 class="text-white">We help Clients invent their future</h2>
+                    <p class="text1">Founded by Jason Phan (a.k.a Phan Thành Đạt), a participant in the e-commerce field since 2018, Jason Private Label (JPL) understands the struggles faced by newcomers and sellers encountering difficulties on Amazon. When first entering the industry, Đạt also encountered numerous challenges in his initial projects, which provided him with valuable lessons and experiences. Understanding the stories of new sellers on Amazon and those facing difficulties, JPL was born with the goal of helping customers overcome persistent challenges and optimize their sales on the Amazon platform.</p>
+                    <p class="text2">By choosing Jason Private Label, we are not just a service provider but a dedicated companion, continuously supporting you throughout your business journey. We will help you build a successful business on Amazon, assisting you in overcoming remaining obstacles and optimizing sales performance.</p>
+                    <a class="read_more text-white text-decoration-none" href="./about.html">Read More
+                        <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <figure class="mb-0 about-rightimage">
+        <img src="./assets/images/about-rightimage.png" alt="" class="img-fluid">
+    </figure>
+    <figure class="mb-0 about-rightcircle">
+        <img src="./assets/images/about-rightcircle.png" alt="" class="img-fluid">
     </figure>
 </section>
 <!-- Offer -->
@@ -163,61 +279,8 @@
         <img src="./assets/images/offer-bottomlayer.png" alt="" class="img-fluid">
     </figure>
 </section>
-<!-- About Us -->
-<section class="about-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-2">
-                <div class="about_wrapper">
-                    <figure class="mb-0 about-image1">
-                        <img src="./assets/images/about-image1.jpg" alt="" class="">
-                    </figure>
-                    <figure class="mb-0 about-image2">
-                        <img src="./assets/images/about-image2.jpg" alt="" class="img-fluid">
-                    </figure>
-                    <div class="image-circle">
-                        <div class="years">
-                            <span class="text-white value counter">30</span>
-                            <sup class="text-white mb-0 plus">+</sup>
-                            <span class="text-white text">Years of Experience</span>
-                        </div>
-                        <figure class="mb-0 about-imagecircle">
-                            <img src="./assets/images/about-imagecircle.png" alt="" class="">
-                        </figure>
-                    </div>
-                    <figure class="mb-0 about-dot">
-                        <img src="./assets/images/about-dot.png" alt="" class="img-fluid">
-                    </figure>
-                    <figure class="mb-0 about-leftcircle">
-                        <img src="./assets/images/about-leftcircle.png" alt="" class="img-fluid">
-                    </figure>
-                    <figure class="mb-0 about-layer">
-                        <img src="./assets/images/about-layer.png" alt="" class="img-fluid">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-1">
-                <div class="about_content" data-aos="fade-right">
-                    <h6>About us</h6>
-                    <h2 class="text-white">We help Clients invent their future</h2>
-                    <p class="text1">Founded by Jason Phan (a.k.a Phan Thành Đạt), a participant in the e-commerce field since 2018, Jason Private Label (JPL) understands the struggles faced by newcomers and sellers encountering difficulties on Amazon. When first entering the industry, Đạt also encountered numerous challenges in his initial projects, which provided him with valuable lessons and experiences. Understanding the stories of new sellers on Amazon and those facing difficulties, JPL was born with the goal of helping customers overcome persistent challenges and optimize their sales on the Amazon platform.</p>
-                    <p class="text2">By choosing Jason Private Label, we are not just a service provider but a dedicated companion, continuously supporting you throughout your business journey. We will help you build a successful business on Amazon, assisting you in overcoming remaining obstacles and optimizing sales performance.</p>
-                    <a class="read_more text-white text-decoration-none" href="./about.html">Read More
-                        <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <figure class="mb-0 about-rightimage">
-        <img src="./assets/images/about-rightimage.png" alt="" class="img-fluid">
-    </figure>
-    <figure class="mb-0 about-rightcircle">
-        <img src="./assets/images/about-rightcircle.png" alt="" class="img-fluid">
-    </figure>
-</section>
 <!-- Achievements -->
-<section class="achievement-section">
+<!-- <section class="achievement-section">
     <figure class="service-rightlayer mb-0">
         <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
     </figure>
@@ -229,7 +292,7 @@
                         <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
                     </figure>
                     <h6>Achievements</h6>
-                    <h2>Some number of our accomplishments.</h2>
+                    <h3>Some number of our accomplishments.</h3>
                     <p>We kindly introduce our impressive track record in Amazon Listing Services. We have achieved remarkable results, optimizing product listings, driving sales conversions, and elevating brand visibility. Join us to leverage our proven success and unlock your product's potential on the Amazon marketplace</p>
                     <a class="get_started text-white text-decoration-none" href="./about.html">Get Started
                         <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
@@ -287,7 +350,7 @@
     <figure class="service-leftlayer mb-0">
         <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
     </figure>
-</section>
+</section> -->
 <!-- Project -->
 @if(count($portfolios) > 0)
 <section class="project-section">
@@ -300,6 +363,7 @@
                 <div class="project_content" data-aos="fade-right">
                     <h6>RECENT PROJECTS</h6>
                     <h2>Our Latest Case Studies</h2>
+                    <p>Below are some of our passion projects aimed at meeting customer needs and satisfaction</p>
                     <figure class="offer-circleimage mb-0">
                         <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
                     </figure>

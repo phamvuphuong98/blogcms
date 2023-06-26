@@ -8,7 +8,7 @@
                             <img src="./assets/images/service-rightcircle.png" alt="" class="img-fluid">
                         </figure>
                         <h1 class="text-white">Contact Us</h1>
-                        <p>Eoidunt eget semper nec ruam sed hendrerit morbi ac feliseao augue pellentesue morbi acer.</p>
+                        <p>Please leave your message so we can understand the issue and provide you with the best advice.</p>
                         <div class="box">
                             <span class="mb-0">Home</span>
                             <figure class="mb-0 arrow"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>

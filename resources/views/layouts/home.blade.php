@@ -59,7 +59,8 @@
                     <div class="banner_content">
                         <figure class="banner-line mb-0"><img src="./assets/images/banner-line.png" alt="" class="img-fluid"></figure>
                         <h6 class="text-white">Amazon Listing Optimization</h6>
-                        <h1 class="text-white">Simplify Amazon Sales, Amplify Your Profits</h1>
+                        <h2 class="text-white">Simplify Amazon Sales</h2>
+                        <h2 class="text-white">Amplify Your Profits</h2>
                         <p>Discover the optimal Amazon listing services essential for ensuring the achievement of your project planning objectives and meeting deadlines with utmost efficiency.</p>
                         <a class="get_started button1 text-white text-decoration-none" href="/contact">Get Started
                             <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
@@ -81,7 +82,7 @@
                             <img src="./assets/images/banner-image.png" alt="" class="img-fluid">
                         </figure>
                         <div class="position-relative">
-                            <a class="popup-vimeo" href="https://video-previews.elements.envatousercontent.com/h264-video-previews/d1c81f1e-849f-4d45-ae57-b61c2f5db34a/25628048.mp4">
+                            <a class="popup-vimeo" href="https://www.youtube.com/embed?v=r0bCkHUznlw">
                                 <figure class="mb-0 banner-vedioimage">
                                     <img class="thumb img-fluid" style="cursor: pointer" src="./assets/images/banner-vedioimage.png" alt="">
                                 </figure>
