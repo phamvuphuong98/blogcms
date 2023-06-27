@@ -57,17 +57,9 @@
                             <img src="./assets/images/service-rightcircle.png" alt="" class="img-fluid">
                         </figure>
                         <h6>About Us</h6>
-                        <h2>Innovate Solution For Success</h2>
-                        <p>Grursus mal suada faci lisis lorem ipsum dolarorit more ion consectetur elit vesti at bulum nec odio aea the um ipsumm recreo that dolocons.</p>
-                        <ul class="list-unstyled mb-0">
-                            <li class="text"><i class="circle fa-duotone fa-check"></i>Quisquam est, rui dolorem ipsum quia dolor cororis.</li>
-                            <li class="text"><i class="circle fa-duotone fa-check"></i>Rem aperiam, eaque ipsa quae ab illo inventore.</li>
-                            <li class="text"><i class="circle fa-duotone fa-check"></i>Duis aute irure dolor in reprehenderit in voluptatar.</li>
-                            <li class="text text1"><i class="circle fa-duotone fa-check"></i>Molestiae non recusandae itarue earum rerum ma.</li>
-                        </ul>
-                        <a class="get_started text-white text-decoration-none" href="./about.html">Get Started
-                            <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
-                        </a>
+                        <h2>We help Clients invent their future</h2>
+                        <p class="text1">Founded by Jason Phan (a.k.a Phan Thành Đạt), a participant in the e-commerce field since 2018, Jason Private Label (JPL) understands the struggles faced by newcomers and sellers encountering difficulties on Amazon. When first entering the industry, Đạt also encountered numerous challenges in his initial projects, which provided him with valuable lessons and experiences. Understanding the stories of new sellers on Amazon and those facing difficulties, JPL was born with the goal of helping customers overcome persistent challenges and optimize their sales on the Amazon platform.</p>
+                        <p class="text2">By choosing Jason Private Label, we are not just a service provider but a dedicated companion, continuously supporting you throughout your business journey. We will help you build a successful business on Amazon, assisting you in overcoming remaining obstacles and optimizing sales performance.</p>
                     </div>
                 </div>
             </div>

@@ -43,8 +43,8 @@
                         <h4 class="heading text-white">Quick Links</h4>
                         <ul class="list-unstyled mb-0">
                             <li><a href="/" class="text-size-18 text text-decoration-none">Home</a></li>
-                            <li><a href="./about.html" class="text-size-18 text text-decoration-none">About Us</a></li>
-                            <li><a href="./service.html" class="text-size-18 text text-decoration-none">Services</a></li>
+                            <li><a href="/about" class="text-size-18 text text-decoration-none">About Us</a></li>
+                            <li><a href="/service" class="text-size-18 text text-decoration-none">Services</a></li>
                             <li><a href="/project" class="text-size-18 text text-decoration-none">Project</a></li>
                             <li><a href="/post" class="text-size-18 text text-decoration-none">Blog</a></li>
                             <li><a href="/contact" class="text-size-18 text text-decoration-none">Contact</a></li>

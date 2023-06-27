@@ -2791,3 +2791,9 @@ p {
     width: 100px;
     height: 100px;
 }
+.service_contentbox_custom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

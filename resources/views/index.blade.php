@@ -139,7 +139,7 @@
                         <li class="text"><i class="circle fa-duotone fa-check"></i>Duis aute irure dolor in reprehenderit in voluptate velio.</li>
                         <li class="text text1"><i class="circle fa-duotone fa-check"></i>Molestiae non recusandae itarue earum rerum maio.</li>
                     </ul> -->
-                    <a class="get_started text-white text-decoration-none" href="./service.html">Get Started
+                    <a class="get_started text-white text-decoration-none" href="/service">Get Started
                         <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
                     </a>
                 </div>
@@ -189,7 +189,7 @@
                     <h2 class="text-white">We help Clients invent their future</h2>
                     <p class="text1">Founded by Jason Phan (a.k.a Phan Thành Đạt), a participant in the e-commerce field since 2018, Jason Private Label (JPL) understands the struggles faced by newcomers and sellers encountering difficulties on Amazon. When first entering the industry, Đạt also encountered numerous challenges in his initial projects, which provided him with valuable lessons and experiences. Understanding the stories of new sellers on Amazon and those facing difficulties, JPL was born with the goal of helping customers overcome persistent challenges and optimize their sales on the Amazon platform.</p>
                     <p class="text2">By choosing Jason Private Label, we are not just a service provider but a dedicated companion, continuously supporting you throughout your business journey. We will help you build a successful business on Amazon, assisting you in overcoming remaining obstacles and optimizing sales performance.</p>
-                    <a class="read_more text-white text-decoration-none" href="./about.html">Read More
+                    <a class="read_more text-white text-decoration-none" href="/about">Read More
                         <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
                     </a>
                 </div>

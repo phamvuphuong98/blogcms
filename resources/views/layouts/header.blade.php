@@ -16,10 +16,10 @@
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./about.html">About Us</a>
+                            <a class="nav-link" href="/about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./service.html">Services</a>
+                            <a class="nav-link" href="/service">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/project">Projects</a>

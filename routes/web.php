@@ -38,6 +38,9 @@ Route::get('/contact', function() {
 Route::get('/about', function() {
     return view('about');
 })->name('about');
+Route::get('/service', function() {
+    return view('service');
+})->name('service');
 Route::get('project', [PortfolioMainController::class, 'index'])->name('project');
 Route::get('/project/{slug}', [PortfolioMainController::class, 'getPortfolioBySlug'])->name('project.show');
 Route::post('form-contact', [HomeController::class, 'formContact'])->name('form.contact');
