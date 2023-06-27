@@ -35,6 +35,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/contact', function() {
     return view('contact');
 })->name('contact');
+Route::get('/about', function() {
+    return view('about');
+})->name('about');
 Route::get('project', [PortfolioMainController::class, 'index'])->name('project');
 Route::get('/project/{slug}', [PortfolioMainController::class, 'getPortfolioBySlug'])->name('project.show');
 Route::post('form-contact', [HomeController::class, 'formContact'])->name('form.contact');

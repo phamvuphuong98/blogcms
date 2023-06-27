@@ -29,7 +29,7 @@ class StorePostRequest extends FormRequest
             'cat_id' => ['required', 'exists:categories,id'],
             'slug' => ['required', 'unique:posts'],
             'status' => ['required', 'boolean'],
-            'image' => ['required', 'image', 'mimes:jpeg,png,jpg', 'max:2048'],
+            'image' => ['required', 'image', 'mimes:jpeg,png,jpg'],
             'tags' => ['exists:tags,id']
         ];
     }

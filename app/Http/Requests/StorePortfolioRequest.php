@@ -26,7 +26,7 @@ class StorePortfolioRequest extends FormRequest
         return [
             'title' => ['required', 'min:3'],
             'slug' => ['required', 'unique:posts'],
-            'banner' => ['required', 'image', 'mimes:jpeg,png,jpg', 'max:2048']
+            'banner' => ['required', 'image', 'mimes:jpeg,png,jpg']
         ];
     }
 }
