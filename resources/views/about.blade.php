@@ -34,14 +34,14 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-2">
                     <div class="about_wrapper">
                         <figure class="mb-0 aboutus-image1">
-                            <img src="./assets/images/aboutus-image1.jpg" alt="" class="">
+                            <img src="./assets/images/about_2.png" alt="" class="">
                         </figure>
                         <figure class="mb-0 aboutus-image2">
-                            <img src="./assets/images/aboutus-image2.jpg" alt="" class="img-fluid">
+                            <img src="./assets/images/about_1.jpg" alt="" class="img-fluid">
                         </figure>
                         <div class="image-circle">
                             <div class="years">
-                                <span class="text-white value counter">30</span>
+                                <span class="text-white value counter">5</span>
                                 <sup class="text-white mb-0 plus">+</sup>
                                 <span class="text-white text">Years of Experience</span>
                             </div>
@@ -58,186 +58,12 @@
                         </figure>
                         <h6>About Us</h6>
                         <h2>We help Clients invent their future</h2>
-                        <p class="text1">Founded by Jason Phan (a.k.a Phan Thành Đạt), a participant in the e-commerce field since 2018, Jason Private Label (JPL) understands the struggles faced by newcomers and sellers encountering difficulties on Amazon. When first entering the industry, Đạt also encountered numerous challenges in his initial projects, which provided him with valuable lessons and experiences. Understanding the stories of new sellers on Amazon and those facing difficulties, JPL was born with the goal of helping customers overcome persistent challenges and optimize their sales on the Amazon platform.</p>
-                        <p class="text2">By choosing Jason Private Label, we are not just a service provider but a dedicated companion, continuously supporting you throughout your business journey. We will help you build a successful business on Amazon, assisting you in overcoming remaining obstacles and optimizing sales performance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <figure class="offer-bottomlayer mb-0">
-            <img src="./assets/images/offer-bottomlayer.png" alt="" class="img-fluid">
-        </figure>
-    </section>
-    <!-- AboutOffer -->
-    <section class="aboutoffer-section">
-        <figure class="service-rightlayer mb-0">
-            <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
-        </figure>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="offer_content">
-                        <h6>what We Offer</h6>
-                        <h2>some of Our Achievements</h2>
-                        <p>Grursus mal suada faci lisis lorem ipsum dolarorit more ame ion consectetur elit vesti at bulum nec odio aea the dumm recreo that dolocons.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="achievement_wrapper">
-                <div class="row">
-                    <figure class="offer-circleimage mb-0">
-                        <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
-                    </figure>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="achievement-box box1">
-                            <figure class="icon achievement-icon">
-                                <img src="./assets/images/achievement-clienticon.png" alt="" class="img-fluid">
-                            </figure>
-                            <div class="wrapper">
-                                <h3>3,860</h3>
-                                <p class="text-size-18 mb-0">Satisfied Clients</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="achievement-box box2">
-                            <figure class="icon1 achievement-icon">
-                                <img src="./assets/images/achievement-projecticon.png" alt="" class="img-fluid">
-                            </figure>
-                            <div class="wrapper">
-                                <h3>8,550</h3>
-                                <p class="text-size-18 mb-0">Projects Completed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="achievement-box box3">
-                            <figure class="icon achievement-icon">
-                                <img src="./assets/images/achievement-teamicon.png" alt="" class="img-fluid">
-                            </figure>
-                            <div class="wrapper">
-                                <div class="number">
-                                    <h3 class="value counter">90</h3>
-                                    <span class="plus">+</span>
-                                </div>
-                                <p class="text text-size-18 mb-0">Team Members</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="achievement-box box4">
-                            <figure class="icon1 achievement-icon">
-                                <img src="./assets/images/achievement-awardicon.png" alt="" class="img-fluid">
-                            </figure>
-                            <div class="wrapper">
-                                <div class="number">
-                                    <h3 class="value counter">180</h3>
-                                    <span class="plus">+</span>
-                                </div>
-                                <p class="text text-size-18 mb-0">Awards Win</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <figure class="service-leftlayer mb-0">
-            <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
-        </figure>
-    </section>
-    <!-- Experts -->
-    <section class="expert-section">
-        <figure class="offer-toplayer mb-0">
-            <img src="./assets/images/offer-toplayer.png" alt="" class="img-fluid">
-        </figure>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="expert_content" data-aos="fade-right">
-                        <h6>Expert people</h6>
-                        <h2>our professional team members</h2>
-                        <p class="text1">Grursus mal suada faci lisis lorem ipsum dolarorit more ion consectetur elit vesti at bulum nec odio aea the au ipsumm recreo that dolocons.</p>
-                        <p class="text2">Lorem ipsum dolarorit moreion consectetur elit vestiau at bulum nec odio aea the aur.</p>
-                        <a class="get_started text-white text-decoration-none" href="./team.html">Get Started
-                            <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="expert_wrapper">
-                        <figure class="offer-circleimage mb-0">
-                            <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
-                        </figure>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="team-box">
-                                    <figure>
-                                        <img src="./assets/images/team-image1.jpg" alt="" class="img-fluid">
-                                    </figure>
-                                    <div class="content">
-                                        <h4>David Bell</h4>
-                                        <span class="text-size-18">Marketer</span>
-                                        <ul class="list-unstyled mb-0">
-                                            <li class="icons"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li class="icons"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                            <li class="icons"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="team-box">
-                                    <figure>
-                                        <img src="./assets/images/team-image2.jpg" alt="" class="img-fluid">
-                                    </figure>
-                                    <div class="content">
-                                        <h4>Kevin Woods</h4>
-                                        <span class="text-size-18">Developer</span>
-                                        <ul class="list-unstyled mb-0">
-                                            <li class="icons"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li class="icons"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                            <li class="icons"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-downcontent">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                    <div class="team-box">
-                                        <figure>
-                                            <img src="./assets/images/team-image3.jpg" alt="" class="img-fluid">
-                                        </figure>
-                                        <div class="content">
-                                            <h4>Georgia James</h4>
-                                            <span class="text-size-18">Developer</span>
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="icons"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                                <li class="icons"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                <li class="icons"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                    <div class="team-box">
-                                        <figure>
-                                            <img src="./assets/images/team-image4.jpg" alt="" class="img-fluid">
-                                        </figure>
-                                        <div class="content">
-                                            <h4>Alina James</h4>
-                                            <span class="text-size-18">Designer</span>
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="icons"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                                <li class="icons"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                <li class="icons"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <p class="text1"> We offer the best-in-class services that will optimize your product listings, attract more customers, and drive higher sales. What's more, our services come at the most competitive prices in the market, ensuring you get the best value for your investment.</p>
+                        <ul class="list-unstyled mb-0">
+                            <li class="text"><i class="circle fa-duotone fa-check"></i>Our team of experts specializes in crafting compelling product descriptions, keyword optimization, and strategic placement</li>
+                            <li class="text"><i class="circle fa-duotone fa-check"></i>Ensuring that your listings stand out from the competition.</li>
+                            <li class="text"><i class="circle fa-duotone fa-check"></i>Take your business to new heights in the online marketplace.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
