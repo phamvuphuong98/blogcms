@@ -81,13 +81,13 @@
                         <figure class="mb-0 banner-image">
                             <img src="./assets/images/banner-image.png" alt="" class="img-fluid">
                         </figure>
-                        <div class="position-relative">
+                        <!-- <div class="position-relative">
                             <a class="popup-vimeo" href="https://www.youtube.com/embed?v=r0bCkHUznlw">
                                 <figure class="mb-0 banner-vedioimage">
                                     <img class="thumb img-fluid" style="cursor: pointer" src="./assets/images/banner-vedioimage.png" alt="">
                                 </figure>
                             </a>
-                        </div>
+                        </div> -->
                         <figure class="banner-circleright mb-0">
                             <img src="./assets/images/banner-circleright.png" class="img-fluid" alt="">
                         </figure>

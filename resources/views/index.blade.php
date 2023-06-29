@@ -1,4 +1,35 @@
 <x-home-layout>
+    <!-- Info vedio -->
+    <div class="vedio-section">
+        <figure class="service-rightlayer mb-0">
+            <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
+        </figure>
+        <div class="container">
+            <div class="row position-relative" data-aos="fade-up">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="position-relative">
+                        <figure class="mb-0 servicepage-dotimage">
+                            <img src="./assets/images/service-dotimage.png" alt="" class="img-fluid">
+                        </figure>
+                        <figure class="mb-0 service-vedioimage">
+                            <!-- <img src="./assets/images/service-vedioimage.jpg" alt="" class="img-fluid"> -->
+                            <iframe width="1109" height="559" src="https://www.youtube.com/embed/r0bCkHUznlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </figure>
+                        <!-- <a class="popup-vimeo" href="https://www.youtube.com/embed/r0bCkHUznlw">
+                        <div class="vedio-circle">
+                            <figure class="mb-0 service-vedioicon">
+                                <img class="thumb img-fluid" style="cursor: pointer" src="./assets/images/service-vedioicon.png" alt="">
+                            </figure>
+                        </div>
+                    </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <figure class="service-leftlayer mb-0">
+            <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
+        </figure>
+    </div>
     <!-- Service -->
     <section class="service-section">
         <figure class="service-leftlayer mb-0">
@@ -12,8 +43,8 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="service_contentbox">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="service-box box-mb">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" title="The purpose of listing copywriting is to create attractive and persuasive descriptions of products or services in order to attract the attention of customers and increase sales opportunities. Additionally, listing copywriting helps optimize search engines, making it easier for customers to search for and find products.">
+                                <div class="service-box box-mb" style="height: 525px">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-marketicon">
                                             <img src="./assets/images/listing.png" width="45px" alt="" class="img-fluid">
@@ -43,40 +74,38 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="box-top">
-                                    <div class="service-box box-mb">
-                                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                                            <figure class="service-producticon">
-                                                <img src="./assets/images/producticon.png" width="45px" alt="" class="img-fluid">
-                                            </figure>
-                                            <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
-                                        </div>
-                                        <h4>Product Photography and Video</h4>
-                                        <ul class="text-left">
-                                            <li>
-                                                <span>White Background Studio Images</span>
-                                            </li>
-                                            <li>
-                                                <span>Photo Manipulation Lifestyle Images</span>
-                                            </li>
-                                            <li>
-                                                <span>Amazon Infographic Images</span>
-                                            </li>
-                                            <li>
-                                                <span>Profession Unbox-Review video with Model</span>
-                                            </li>
-                                            <li>
-                                                <span>Product Shots with Text Effects</span>
-                                            </li>
-                                        </ul>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" title="The purpose of Product Photography and Video is to present products in a professional and attractive manner, using dynamic visuals to capture the attention of customers, build trust, and enhance sales potential.">
+                                <div class="service-box box-mb" style="height: 525px">
+                                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                                        <figure class="service-producticon">
+                                            <img src="./assets/images/producticon.png" width="45px" alt="" class="img-fluid">
+                                        </figure>
+                                        <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
                                     </div>
+                                    <h4>Product Photography and Video</h4>
+                                    <ul class="text-left">
+                                        <li>
+                                            <span>White Background Studio Images</span>
+                                        </li>
+                                        <li>
+                                            <span>Photo Manipulation Lifestyle Images</span>
+                                        </li>
+                                        <li>
+                                            <span>Amazon Infographic Images</span>
+                                        </li>
+                                        <li>
+                                            <span>Profession Unbox-Review video with Model</span>
+                                        </li>
+                                        <li>
+                                            <span>Product Shots with Text Effects</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="service-box">
+                        <div class="row" style="margin-top: 25px">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" title="The purpose of A+ Content Optimizing is to optimize the Enhanced Brand Content (A+) on product pages on e-commerce platforms like Amazon">
+                                <div class="service-box" style="height: 525px">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-designicon">
                                             <img src="./assets/images/Optimizing.png" width="45px" alt="" class="img-fluid">
@@ -94,31 +123,29 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="box-top">
-                                    <div class="service-box">
-                                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                                            <figure class="service-dataicon">
-                                                <img src="./assets/images/Others.png" width="45px" alt="" class="img-fluid">
-                                            </figure>
-                                            <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
-                                        </div>
-                                        <h4>Others Service</h4>
-                                        <ul class="text-left">
-                                            <li>
-                                                <span>Websites</span>
-                                            </li>
-                                            <li>
-                                                <span>Marketing Services</span>
-                                            </li>
-                                            <li>
-                                                <span>AI Brand Design</span>
-                                            </li>
-                                            <li>
-                                                <span>Review Product</span>
-                                            </li>
-                                        </ul>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" title="The purpose of the Others services is to meet the needs of customers and ensure the most effective product launching">
+                                <div class="service-box" style="height: 525px">
+                                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                                        <figure class="service-dataicon">
+                                            <img src="./assets/images/Others.png" width="45px" alt="" class="img-fluid">
+                                        </figure>
+                                        <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
                                     </div>
+                                    <h4>Others Service</h4>
+                                    <ul class="text-left">
+                                        <li>
+                                            <span>Websites</span>
+                                        </li>
+                                        <li>
+                                            <span>Marketing Services</span>
+                                        </li>
+                                        <li>
+                                            <span>AI Brand Design</span>
+                                        </li>
+                                        <li>
+                                            <span>Review Product</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -570,9 +597,10 @@
                 <div class="owl-carousel owl-theme">
                     @foreach ($posts as $post)
                     <div class="item">
+                    <a href="{{ '/post/'.$post->slug }}">
                         <div class="blog_boxcontent">
-                            <div class="upper_portion">
-                                <figure class="mb-0"><img src="{{ asset('storage/'.$post->image) }}" class="article_img" alt=""></figure>
+                            <div class="upper_portion" style="height: 240px">
+                                <figure class="mb-0"><img width="100%" src="{{ asset('storage/'.$post->image) }}" class="article_img" alt=""></figure>
                                 <div class="image_content">
                                     <div class="content">
                                         <h3 class="text-white counter">{{ $post->day }}</h3>
@@ -589,6 +617,7 @@
                                 </div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     @endforeach
                 </div>

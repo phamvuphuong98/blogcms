@@ -62,6 +62,13 @@
                                     </div>
                                     <p class="text-size-16">{!! $post->content !!}</p>
                                 </div>
+                                <div class="row form-gray-fields">
+                                    <div class="col-lg-12">
+                                        <div class="form-group text-center">
+                                            <a class="btn font_weight_600" href="/contact">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="post-tags">
                                     <a href="#">Life</a>
                                     <a href="#">Sport</a>
