@@ -67,22 +67,33 @@ class PostController extends Controller
 
         foreach ($images as $k => $img) {
             $data = $img->getAttribute('src');
+            
+            if (strpos($str, 'http') !== false) {
+                // Tải nội dung của URL về dưới dạng chuỗi
+                $image_data = file_get_contents($data);
+                $image_name = "/storage/images/posts/" . time() . $k . '.png';
+                $path = public_path() . $image_name;
+                file_put_contents($path, $image_data);
+                $img->removeAttribute('src');
+                $img->setAttribute('src', $image_name);
+            } else {
+                
+                list($type, $data) = explode(';', $data);
 
-            list($type, $data) = explode(';', $data);
-
-            list(, $data) = explode(',', $data);
-
-            $data = base64_decode($data);
-
-            $image_name = "/storage/images/posts/" . time() . $k . '.png';
-
-            $path = public_path() . $image_name;
-
-            file_put_contents($path, $data);
-
-            $img->removeAttribute('src');
-
-            $img->setAttribute('src', $image_name);
+                list(, $data) = explode(',', $data);
+    
+                $data = base64_decode($data);
+    
+                $image_name = "/storage/images/posts/" . time() . $k . '.png';
+    
+                $path = public_path() . $image_name;
+    
+                file_put_contents($path, $data);
+    
+                $img->removeAttribute('src');
+    
+                $img->setAttribute('src', $image_name);
+            }
         }
 
         $post_data['content'] = $dom->saveHTML();
