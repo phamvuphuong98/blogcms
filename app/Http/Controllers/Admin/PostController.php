@@ -60,8 +60,8 @@ class PostController extends Controller
         $post_data['user_id'] = Auth()->user()->id;
         $post_data['content'] = $request->content;
         $dom = new \DomDocument();
-
-        $dom->loadHtml($post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+        $dom->encoding = 'UTF-8';
+        $dom->loadHtml('<?xml encoding="UTF-8">' . $post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
         $images = $dom->getElementsByTagName('img');
 
@@ -142,8 +142,8 @@ class PostController extends Controller
         $post_data['user_id'] = Auth()->user()->id;
         $post_data['content'] = $request->content;
         $dom = new \DomDocument();
-
-        $dom->loadHtml($post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+        $dom->encoding = 'UTF-8';
+        $dom->loadHtml('<?xml encoding="UTF-8">' . $post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
         $images = $dom->getElementsByTagName('img');
 
