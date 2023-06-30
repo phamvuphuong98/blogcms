@@ -58,6 +58,34 @@ class PostController extends Controller
         }
 
         $post_data['user_id'] = Auth()->user()->id;
+        $post_data['content'] = $request->content;
+        $dom = new \DomDocument();
+
+        $dom->loadHtml($post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+
+        $images = $dom->getElementsByTagName('img');
+
+        foreach ($images as $k => $img) {
+            $data = $img->getAttribute('src');
+
+            list($type, $data) = explode(';', $data);
+
+            list(, $data) = explode(',', $data);
+
+            $data = base64_decode($data);
+
+            $image_name = "/storage/images/posts/" . time() . $k . '.png';
+
+            $path = public_path() . $image_name;
+
+            file_put_contents($path, $data);
+
+            $img->removeAttribute('src');
+
+            $img->setAttribute('src', $image_name);
+        }
+
+        $post_data['content'] = $dom->saveHTML();
 
         // dd($request->tags);
         $post = Post::create($post_data);
@@ -102,6 +130,35 @@ class PostController extends Controller
         }
 
         $post_data['user_id'] = Auth()->user()->id;
+        $post_data['content'] = $request->content;
+        $dom = new \DomDocument();
+
+        $dom->loadHtml($post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+
+        $images = $dom->getElementsByTagName('img');
+
+        foreach ($images as $k => $img) {
+            $data = $img->getAttribute('src');
+
+            list($type, $data) = explode(';', $data);
+
+            list(, $data) = explode(',', $data);
+
+            $data = base64_decode($data);
+
+            $image_name = "/storage/images/posts/" . time() . $k . '.png';
+
+            $path = public_path() . $image_name;
+
+            file_put_contents($path, $data);
+
+            $img->removeAttribute('src');
+
+            $img->setAttribute('src', $image_name);
+        }
+
+        $post_data['content'] = $dom->saveHTML();
+
         $post->update($post_data);
         $post->tags()->sync($request->tags);
 
@@ -139,12 +196,11 @@ class PostController extends Controller
         $searched_text = $request->input('search');
 
         $posts = Post::query()->with(['category', 'user', 'tags'])
-        ->where('title', 'LIKE', "%{$searched_text}%")
-        ->orWhere('content', 'LIKE', "%{$searched_text}%")
-        ->paginate(10);
+            ->where('title', 'LIKE', "%{$searched_text}%")
+            ->orWhere('content', 'LIKE', "%{$searched_text}%")
+            ->paginate(10);
 
-    // Return the search view with the resluts
-    return view('admin.post.search', compact('posts'));
-
+        // Return the search view with the resluts
+        return view('admin.post.search', compact('posts'));
     }
 }
