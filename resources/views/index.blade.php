@@ -563,7 +563,7 @@
                         <div class="owl-carousel owl-theme">
                             <div class="item">
                                 <div class="service-box box-mb">
-                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/r0bCkHUznlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="100%"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -608,7 +608,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="lower_portion_wrapper">
+                            <div class="lower_portion_wrapper" style="height: 280px">
                                 <div class="lower_portion">
                                     <h4>{{ $post->title }}</h4>
                                     <a class="read_more text-decoration-none" href="{{ '/post/'.$post->slug }}">Read More
