@@ -43,8 +43,8 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="service_contentbox">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" title="The purpose of listing copywriting is to create attractive and persuasive descriptions of products or services in order to attract the attention of customers and increase sales opportunities. Additionally, listing copywriting helps optimize search engines, making it easier for customers to search for and find products.">
-                                <div class="service-box box-mb" style="height: 525px">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="service-box box-mb" style="height: 525px" id="listing">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-marketicon">
                                             <img src="./assets/images/listing.png" width="45px" alt="" class="img-fluid">
@@ -74,8 +74,8 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" title="The purpose of Product Photography and Video is to present products in a professional and attractive manner, using dynamic visuals to capture the attention of customers, build trust, and enhance sales potential.">
-                                <div class="service-box box-mb" style="height: 525px">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="service-box box-mb" style="height: 525px" id="product">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-producticon">
                                             <img src="./assets/images/producticon.png" width="45px" alt="" class="img-fluid">
@@ -104,8 +104,8 @@
                             </div>
                         </div>
                         <div class="row" style="margin-top: 25px">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" title="The purpose of A+ Content Optimizing is to optimize the Enhanced Brand Content (A+) on product pages on e-commerce platforms like Amazon">
-                                <div class="service-box" style="height: 525px">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="service-box" style="height: 525px" id="optimizing">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-designicon">
                                             <img src="./assets/images/Optimizing.png" width="45px" alt="" class="img-fluid">
@@ -123,8 +123,8 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" title="The purpose of the Others services is to meet the needs of customers and ensure the most effective product launching">
-                                <div class="service-box" style="height: 525px">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="service-box" style="height: 525px" id="other">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-dataicon">
                                             <img src="./assets/images/Others.png" width="45px" alt="" class="img-fluid">
@@ -629,3 +629,19 @@
     </section>
     @endif
 </x-home-layout>
+<script>
+    tippy('#listing', {
+        placement: 'right',
+        theme: 'tomato',
+        content: 'The purpose of listing copywriting is to create attractive and persuasive descriptions of products or services in order to attract the attention of customers and increase sales opportunities. Additionally, listing copywriting helps optimize search engines, making it easier for customers to search for and find products.',
+    });
+    tippy('#product', {
+        content: 'The purpose of Product Photography and Video is to present products in a professional and attractive manner, using dynamic visuals to capture the attention of customers, build trust, and enhance sales potential.',
+    });
+    tippy('#optimizing', {
+        content: 'The purpose of A+ Content Optimizing is to optimize the Enhanced Brand Content (A+) on product pages on e-commerce platforms like Amazon',
+    });
+    tippy('#other', {
+        content: 'The purpose of the Others services is to meet the needs of customers and ensure the most effective product launching',
+    });
+</script>
