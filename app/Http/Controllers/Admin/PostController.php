@@ -60,29 +60,39 @@ class PostController extends Controller
         $post_data['user_id'] = Auth()->user()->id;
         $post_data['content'] = $request->content;
         $dom = new \DomDocument();
-
-        $dom->loadHtml($post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+        $dom->encoding = 'UTF-8';
+        $dom->loadHtml('<?xml encoding="UTF-8">' . $post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
         $images = $dom->getElementsByTagName('img');
 
         foreach ($images as $k => $img) {
             $data = $img->getAttribute('src');
+            if (strpos($data, 'http') !== false) {
+                // Tải nội dung của URL về dưới dạng chuỗi
+                $image_data = file_get_contents($data);
+                $image_name = "/storage/images/posts/" . time() . $k . '.png';
+                $path = public_path() . $image_name;
+                file_put_contents($path, $image_data);
+                $img->removeAttribute('src');
+                $img->setAttribute('src', $image_name);
+            } else {
+                
+                list($type, $data) = explode(';', $data);
 
-            list($type, $data) = explode(';', $data);
-
-            list(, $data) = explode(',', $data);
-
-            $data = base64_decode($data);
-
-            $image_name = "/storage/images/posts/" . time() . $k . '.png';
-
-            $path = public_path() . $image_name;
-
-            file_put_contents($path, $data);
-
-            $img->removeAttribute('src');
-
-            $img->setAttribute('src', $image_name);
+                list(, $data) = explode(',', $data);
+    
+                $data = base64_decode($data);
+    
+                $image_name = "/storage/images/posts/" . time() . $k . '.png';
+    
+                $path = public_path() . $image_name;
+    
+                file_put_contents($path, $data);
+    
+                $img->removeAttribute('src');
+    
+                $img->setAttribute('src', $image_name);
+            }
         }
 
         $post_data['content'] = $dom->saveHTML();
@@ -132,29 +142,39 @@ class PostController extends Controller
         $post_data['user_id'] = Auth()->user()->id;
         $post_data['content'] = $request->content;
         $dom = new \DomDocument();
-
-        $dom->loadHtml($post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+        $dom->encoding = 'UTF-8';
+        $dom->loadHtml('<?xml encoding="UTF-8">' . $post_data['content'], LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
         $images = $dom->getElementsByTagName('img');
 
         foreach ($images as $k => $img) {
             $data = $img->getAttribute('src');
+            if (strpos($data, 'http') !== false) {
+                // Tải nội dung của URL về dưới dạng chuỗi
+                $image_data = file_get_contents($data);
+                $image_name = "/storage/images/posts/" . time() . $k . '.png';
+                $path = public_path() . $image_name;
+                file_put_contents($path, $image_data);
+                $img->removeAttribute('src');
+                $img->setAttribute('src', $image_name);
+            } else {
+                
+                list($type, $data) = explode(';', $data);
 
-            list($type, $data) = explode(';', $data);
-
-            list(, $data) = explode(',', $data);
-
-            $data = base64_decode($data);
-
-            $image_name = "/storage/images/posts/" . time() . $k . '.png';
-
-            $path = public_path() . $image_name;
-
-            file_put_contents($path, $data);
-
-            $img->removeAttribute('src');
-
-            $img->setAttribute('src', $image_name);
+                list(, $data) = explode(',', $data);
+    
+                $data = base64_decode($data);
+    
+                $image_name = "/storage/images/posts/" . time() . $k . '.png';
+    
+                $path = public_path() . $image_name;
+    
+                file_put_contents($path, $data);
+    
+                $img->removeAttribute('src');
+    
+                $img->setAttribute('src', $image_name);
+            }
         }
 
         $post_data['content'] = $dom->saveHTML();
