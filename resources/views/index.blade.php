@@ -636,12 +636,18 @@
         content: 'The purpose of listing copywriting is to create attractive and persuasive descriptions of products or services in order to attract the attention of customers and increase sales opportunities. Additionally, listing copywriting helps optimize search engines, making it easier for customers to search for and find products.',
     });
     tippy('#product', {
+        placement: 'right',
+        theme: 'tomato',
         content: 'The purpose of Product Photography and Video is to present products in a professional and attractive manner, using dynamic visuals to capture the attention of customers, build trust, and enhance sales potential.',
     });
     tippy('#optimizing', {
+        placement: 'right',
+        theme: 'tomato',
         content: 'The purpose of A+ Content Optimizing is to optimize the Enhanced Brand Content (A+) on product pages on e-commerce platforms like Amazon',
     });
     tippy('#other', {
+        placement: 'right',
+        theme: 'tomato',
         content: 'The purpose of the Others services is to meet the needs of customers and ensure the most effective product launching',
     });
 </script>
