@@ -600,7 +600,7 @@
                     <a href="{{ '/post/'.$post->slug }}">
                         <div class="blog_boxcontent">
                             <div class="upper_portion">
-                                <figure class="mb-0"><img style="height: 240px; object-fit: contain;" src="{{ asset('storage/'.$post->image) }}" class="article_img" alt=""></figure>
+                                <figure class="mb-0"><img style="height: 240px;" src="{{ asset('storage/'.$post->image) }}" class="article_img" alt=""></figure>
                                 <div class="image_content">
                                     <div class="content">
                                         <h3 class="text-white counter">{{ $post->day }}</h3>
