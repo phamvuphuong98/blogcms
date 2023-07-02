@@ -34,10 +34,10 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-2">
                     <div class="about_wrapper">
                         <figure class="mb-0 aboutus-image1">
-                            <img src="./assets/images/about_2.png" alt="" class="">
+                            <img src="./assets/images/about_1.jpg" alt="" class="">
                         </figure>
                         <figure class="mb-0 aboutus-image2">
-                            <img src="./assets/images/about_1.jpg" alt="" class="img-fluid">
+                            <img src="./assets/images/about_2.png" alt="" class="img-fluid">
                         </figure>
                         <div class="image-circle">
                             <div class="years">

@@ -37,8 +37,8 @@
                 <div class="col-12">
                     <div class="servicepage_content" data-aos="fade-right">
                         <h6>Our Sevrices</h6>
-                        <h2>BEST IT SOLUTION Services</h2>
-                        <p>BEST AMAZON LISTING CREATION SERVICES FOR YOUR BUSINESS</p>
+                        <h2>BEST AMAZON LISTING CREATION SERVICES FOR YOUR BUSINESS</h2>
+                        <!-- <p>BEST AMAZON LISTING CREATION SERVICES FOR YOUR BUSINESS</p> -->
                         <figure class="offer-circleimage mb-0">
                             <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
                         </figure>

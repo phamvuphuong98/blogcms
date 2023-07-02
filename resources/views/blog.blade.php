@@ -49,7 +49,7 @@
                                         <h2>
                                             <a href="{{ '/post/'.$post->slug }}">{{ $post->title }}</a>
                                         </h2>
-                                        <p class="text-size-16 content-limit">{{ $post->content }}</p>
+                                        <!-- <p class="text-size-16 content-limit">{!! $post->content !!}</p> -->
                                         <a href="{{ '/post/'.$post->slug }}" class="item-link">Read More <i class="fa fa-arrow-right"></i></a>
                                     </div>
                                 </div>

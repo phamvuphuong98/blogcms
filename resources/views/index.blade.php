@@ -184,14 +184,14 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-2">
                     <div class="about_wrapper">
                         <figure class="mb-0 about-image1">
-                            <img src="./assets/images/about-image1.jpg" alt="" class="">
+                            <img src="./assets/images/about_1.jpg" alt="" class="">
                         </figure>
                         <figure class="mb-0 about-image2">
-                            <img src="./assets/images/about-image2.jpg" alt="" class="img-fluid">
+                            <img src="./assets/images/about_2.png" alt="" class="img-fluid">
                         </figure>
                         <div class="image-circle">
                             <div class="years">
-                                <span class="text-white value counter">30</span>
+                                <span class="text-white value counter">5</span>
                                 <sup class="text-white mb-0 plus">+</sup>
                                 <span class="text-white text">Years of Experience</span>
                             </div>
@@ -388,8 +388,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="project_content" data-aos="fade-right">
-                        <h6>RECENT PROJECTS</h6>
-                        <h2>Our Latest Case Studies</h2>
+                        <!-- <h6>RECENT PROJECTS</h6> -->
+                        <h2>Our Latest Case Projects</h2>
                         <p>Below are some of our passion projects aimed at meeting customer needs and satisfaction</p>
                         <figure class="offer-circleimage mb-0">
                             <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
@@ -599,8 +599,8 @@
                     <div class="item">
                     <a href="{{ '/post/'.$post->slug }}">
                         <div class="blog_boxcontent">
-                            <div class="upper_portion" style="height: 240px">
-                                <figure class="mb-0"><img width="100%" src="{{ asset('storage/'.$post->image) }}" class="article_img" alt=""></figure>
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img style="height: 240px; object-fit: contain;" src="{{ asset('storage/'.$post->image) }}" class="article_img" alt=""></figure>
                                 <div class="image_content">
                                     <div class="content">
                                         <h3 class="text-white counter">{{ $post->day }}</h3>

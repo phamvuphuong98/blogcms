@@ -1,4 +1,4 @@
-<x-sub-layout>
+a<x-sub-layout>
 <section class="banner-section">
         <div class="container">
             <div class="row">
@@ -47,6 +47,7 @@
             @if(count($portfolios) > 0)
                 @foreach ($portfolios as $portfolio)
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                <a href="{{ '/project/'.$portfolio->slug }}" >
                     <div class="case-box overlay">
                         <div class="overlay-image">
                             <figure class="image mb-0">
@@ -58,6 +59,7 @@
                             <a href="{{ '/project/'.$portfolio->slug }}" class="item-link"><h5 class="text-white">{{ $portfolio->title }}</h5></a>
                         </div>
                     </div>
+</a>
                 </div>
                 @endforeach
             @else

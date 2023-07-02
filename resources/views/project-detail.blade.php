@@ -128,7 +128,15 @@
                         @endforeach
                     </div>
                     @endif
+
                     @if (!!($portfolio->brand_stories))
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="offer_content">
+                                <h2>BRAND STORY</h2>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         @foreach ($portfolio->brand_stories as $brand_story)
                             <div class="col-xl-4 col-lg-4">
