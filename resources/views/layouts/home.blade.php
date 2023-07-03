@@ -20,6 +20,8 @@
     <!-- <link rel="manifest" href="assets/images/favicon/manifest.json"> -->
     <meta property="og:title" content="Jason Private Label">
     <meta property="og:image" content="https://jasonprivatelabel.com/assets/images/lgo_fb.png">
+    <meta property="og:fb:app_id" content="105102095959415">
+    <meta property="og:url" content="https://jasonprivatelabel.com">
     <meta name="theme-color" content="#ffffff">
     <!-- Latest compiled and minified CSS -->
     <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">

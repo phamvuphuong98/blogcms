@@ -1,3 +1,9 @@
+<head>
+    <meta property="og:title" content="{{ $post->title }}">
+    <meta property="og:image" content="{{ asset('storage/'.$post->image) }}">
+    <meta property="og:fb:app_id" content="105102095959415">
+    <meta property="og:url" content="https://jasonprivatelabel.com/post/{{ $post->slug }}">
+</head>
 <x-sub-layout>
     <section class="banner-section">
         <div class="container">
@@ -34,7 +40,7 @@
                             <div class="post-item-wrap">
                                 <div class="post-image" data-aos="fade-up">
                                     <a href="#">
-                                        <img alt="" src="{{ asset('storage/'.$post->image) }}">
+                                        <img alt="" src="c">
                                     </a>
                                     <!--post-image-->
                                 </div>
@@ -168,22 +174,22 @@
                                 </ul>
                                 <div class="tab-content" id="tabs-posts-content">
                                     @if (count($post_like_cats) > 0)
-                                        <ul>
-                                            <div class="tab-pane fade show active" id="popular" role="tabpanel">
-                                                <div class="post-thumbnail-list">
+                                    <ul>
+                                        <div class="tab-pane fade show active" id="popular" role="tabpanel">
+                                            <div class="post-thumbnail-list">
                                                 @foreach ($post_like_cats as $post_like_cat)
-                                                    <div class="post-thumbnail-entry">
-                                                        <img data-aos="fade-up" alt="" src="{{ asset('storage/'.$post_like_cat->image) }}">
-                                                        <div class="post-thumbnail-content">
-                                                            <a href="{{ '/post/'.$post_like_cat->slug }}">{{ $post_like_cat->title }}</a>
-                                                            <span class="post-date"><i class="far fa-clock"></i> {{ $post_like_cat->created_at }}</span>
-                                                            <span class="post-category"><i class="fa fa-tag"></i> {{ $post_like_cat->category->name }}</span>
-                                                        </div>
+                                                <div class="post-thumbnail-entry">
+                                                    <img data-aos="fade-up" alt="" src="{{ asset('storage/'.$post_like_cat->image) }}">
+                                                    <div class="post-thumbnail-content">
+                                                        <a href="{{ '/post/'.$post_like_cat->slug }}">{{ $post_like_cat->title }}</a>
+                                                        <span class="post-date"><i class="far fa-clock"></i> {{ $post_like_cat->created_at }}</span>
+                                                        <span class="post-category"><i class="fa fa-tag"></i> {{ $post_like_cat->category->name }}</span>
                                                     </div>
-                                                @endforeach
                                                 </div>
+                                                @endforeach
                                             </div>
-                                        </ul>
+                                        </div>
+                                    </ul>
                                     @endif
                                 </div>
                             </div>
@@ -193,10 +199,10 @@
                             <div class="widget-title font_weight_600">Categories</div>
                             <ul>
                                 @foreach ($categries as $categry)
-                                    <li class="cat-item">
-                                        <a href="#">{{ $categry->name }}</a>
-                                        <span class="cat-count-span"></span>
-                                    </li>
+                                <li class="cat-item">
+                                    <a href="#">{{ $categry->name }}</a>
+                                    <span class="cat-count-span"></span>
+                                </li>
                                 @endforeach
                             </ul>
                         </div>
@@ -221,7 +227,7 @@
                             <h4 class="widget-title font_weight_600">Tags</h4>
                             <div class="tags">
                                 @foreach ($tags as $tag)
-                                    <a href="#">{{ $tag->name }}</a>
+                                <a href="#">{{ $tag->name }}</a>
                                 @endforeach
                             </div>
                         </div>
@@ -234,19 +240,22 @@
 </x-sub-layout>
 
 <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '105102095959415',
-      xfbml      : true,
-      version    : 'v11.0'
-    });
-  };
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId: '105102095959415',
+            xfbml: true,
+            version: 'v11.0'
+        });
+    };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>
