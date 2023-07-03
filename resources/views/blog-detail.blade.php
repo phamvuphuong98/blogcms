@@ -40,7 +40,7 @@
                             <div class="post-item-wrap">
                                 <div class="post-image" data-aos="fade-up">
                                     <a href="#">
-                                        <img alt="" src="c">
+                                        <img alt="" src="{{ asset('storage/'.$post->image) }}">
                                     </a>
                                     <!--post-image-->
                                 </div>
