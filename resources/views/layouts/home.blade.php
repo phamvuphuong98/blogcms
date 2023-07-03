@@ -18,8 +18,8 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/lgo_ino.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/lgo_ino.png">
     <!-- <link rel="manifest" href="assets/images/favicon/manifest.json"> -->
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta property="og:title" content="Jason Private Label">
+    <meta property="og:image" content="assets/images/lgo.png">
     <meta name="theme-color" content="#ffffff">
     <!-- Latest compiled and minified CSS -->
     <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
