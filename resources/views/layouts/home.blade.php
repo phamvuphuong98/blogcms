@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/lgo_ino.png">
     <!-- <link rel="manifest" href="assets/images/favicon/manifest.json"> -->
     <meta property="og:title" content="Jason Private Label">
-    <meta property="og:image" content="./assets/images/lgo.png">
+    <meta property="og:image" content="https://jasonprivatelabel.com/assets/images/lgo.png">
     <meta name="theme-color" content="#ffffff">
     <!-- Latest compiled and minified CSS -->
     <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
