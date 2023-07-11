@@ -1,4 +1,4 @@
-a<x-sub-layout>
+<x-sub-layout>
 <section class="banner-section">
         <div class="container">
             <div class="row">

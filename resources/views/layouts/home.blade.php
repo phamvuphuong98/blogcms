@@ -61,8 +61,8 @@
                     <div class="banner_content">
                         <figure class="banner-line mb-0"><img src="./assets/images/banner-line.png" alt="" class="img-fluid"></figure>
                         <h6 class="text-white">Amazon Listing Optimization</h6>
-                        <h2 class="text-white">Simplify Amazon Sales</h2>
-                        <h2 class="text-white">Amplify Your Profits</h2>
+                        <h2 class="text-white" style="font-size: 45px">Simplify Amazon Sales</h2>
+                        <h2 class="text-white" style="font-size: 45px">Amplify Your Profits</h2>
                         <p>Discover the optimal Amazon listing services essential for ensuring the achievement of your project planning objectives and meeting deadlines with utmost efficiency.</p>
                         <a class="get_started button1 text-white text-decoration-none" href="/contact">Get Started
                             <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>

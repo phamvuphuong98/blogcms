@@ -41,6 +41,18 @@ Route::get('/about', function() {
 Route::get('/service', function() {
     return view('service');
 })->name('service');
+Route::get('/service/listing-copywriting', function() {
+    return view('service-detail-1');
+})->name('service-detail-1');
+Route::get('/service/product-photography-and-video', function() {
+    return view('service-detail-2');
+})->name('service-detail-2');
+Route::get('/service/a-content-optimizing', function() {
+    return view('service-detail-3');
+})->name('service-detail-3');
+Route::get('/service/others-service', function() {
+    return view('service-detail-4');
+})->name('service-detail-4');
 Route::get('project', [PortfolioMainController::class, 'index'])->name('project');
 Route::get('/project/{slug}', [PortfolioMainController::class, 'getPortfolioBySlug'])->name('project.show');
 Route::post('form-contact', [HomeController::class, 'formContact'])->name('form.contact');

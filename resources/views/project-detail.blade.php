@@ -1,3 +1,8 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</head>
 <x-sub-layout>
     <section class="banner-section">
         <div class="container">
@@ -54,8 +59,8 @@
                                 <div class="float-left w-100 post-item border mb-4">
                                     <div class="post-item-wrap position-relative">
                                         <div class="post-image">
-                                            <a href="#">
-                                                <img alt="" src="{{ asset('storage/'.$product_photo) }}">
+                                            <a href="{{ asset('storage/'.$product_photo) }}">
+                                                <img data-fancybox="gallery" data-src="{{ asset('storage/'.$product_photo) }}" src="{{ asset('storage/'.$product_photo) }}">
                                             </a>
                                         </div>
                                     </div>
@@ -84,8 +89,8 @@
                                 <div class="float-left w-100 post-item border mb-4">
                                     <div class="post-item-wrap position-relative">
                                         <div class="post-image">
-                                            <a href="#">
-                                                <img alt="" src="{{ asset('storage/'.$a_content_long) }}">
+                                            <a href="{{ asset('storage/'.$a_content_long) }}">
+                                                <img data-fancybox="gallery" data-src="{{ asset('storage/'.$a_content_long) }}" src="{{ asset('storage/'.$a_content_long) }}">
                                             </a>
                                         </div>
                                     </div>
@@ -101,8 +106,8 @@
                                 <div class="float-left w-100 post-item border mb-4">
                                     <div class="post-item-wrap position-relative">
                                         <div class="post-image">
-                                            <a href="#">
-                                                <img alt="" src="{{ asset('storage/'.$a_content) }}">
+                                            <a href="{{ asset('storage/'.$a_content) }}">
+                                                <img data-fancybox="gallery" data-src="{{ asset('storage/'.$a_content) }}" src="{{ asset('storage/'.$a_content) }}">
                                             </a>
                                         </div>
                                     </div>
@@ -118,8 +123,8 @@
                                 <div class="float-left w-100 post-item border mb-4">
                                     <div class="post-item-wrap position-relative">
                                         <div class="post-image">
-                                            <a href="#">
-                                                <img alt="" src="{{ asset('storage/'.$brand_story_long) }}">
+                                            <a href="{{ asset('storage/'.$brand_story_long) }}">
+                                                <img data-fancybox="gallery" data-src="{{ asset('storage/'.$brand_story_long) }}" src="{{ asset('storage/'.$brand_story_long) }}">
                                             </a>
                                         </div>
                                     </div>
@@ -143,8 +148,8 @@
                                 <div class="float-left w-100 post-item border mb-4">
                                     <div class="post-item-wrap position-relative">
                                         <div class="post-image">
-                                            <a href="#">
-                                                <img alt="" src="{{ asset('storage/'.$brand_story) }}">
+                                            <a href="{{ asset('storage/'.$brand_story) }}">
+                                                <img data-fancybox="gallery" data-src="{{ asset('storage/'.$brand_story) }}" src="{{ asset('storage/'.$brand_story) }}">
                                             </a>
                                         </div>
                                     </div>
@@ -197,8 +202,8 @@
                                 <div class="float-left w-100 post-item border mb-4">
                                     <div class="post-item-wrap position-relative">
                                         <div class="post-image">
-                                            <a href="#">
-                                                <img alt="" src="{{ asset('storage/'.$social_post_design) }}">
+                                            <a href="{{ asset('storage/'.$social_post_design) }}">
+                                                <img data-fancybox="gallery" data-src="{{ asset('storage/'.$social_post_design) }}" src="{{ asset('storage/'.$social_post_design) }}">
                                             </a>
                                         </div>
                                     </div>
@@ -227,8 +232,8 @@
                                 <div class="float-left w-100 post-item border mb-4">
                                     <div class="post-item-wrap position-relative">
                                         <div class="post-image">
-                                            <a href="#">
-                                                <img alt="" src="{{ asset('storage/'.$packging_design) }}">
+                                            <a href="{{ asset('storage/'.$packging_design) }}">
+                                                <img data-fancybox="gallery" data-src="{{ asset('storage/'.$packging_design) }}" src="{{ asset('storage/'.$packging_design) }}">
                                             </a>
                                         </div>
                                     </div>
@@ -242,3 +247,6 @@
         @endif
     </section>
 </x-sub-layout>
+<script>
+
+</script>

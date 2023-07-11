@@ -56,7 +56,7 @@
                                             <figure class="service-marketicon">
                                                 <img src="./assets/images/listing.png" width="45px" alt="" class="img-fluid">
                                             </figure>
-                                            <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                            <a class="arrow text-decoration-none" href="/service/listing-copywriting"><i class="circle fa-thin fa-arrow-right"></i></a>
                                         </div>
                                         <h4>Listing Copywriting</h4>
                                         <ul class="text-left">
@@ -89,18 +89,12 @@
                                             <figure class="service-producticon">
                                                 <img src="./assets/images/producticon.png" width="45px" alt="" class="img-fluid">
                                             </figure>
-                                            <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                            <a class="arrow text-decoration-none" href="/service/product-photography-and-video"><i class="circle fa-thin fa-arrow-right"></i></a>
                                         </div>
                                         <h4>Product Photography and Video</h4>
                                         <ul class="text-left">
                                             <li>
-                                                <span>White Background Studio Images</span>
-                                            </li>
-                                            <li>
-                                                <span>Photo Manipulation Lifestyle Images</span>
-                                            </li>
-                                            <li>
-                                                <span>Amazon Infographic Images</span>
+                                                <span>Amazon Infographic and Lifestyle Images</span>
                                             </li>
                                             <li>
                                                 <span>Profession Unbox-Review video with Model</span>
@@ -120,7 +114,7 @@
                                             <figure class="service-designicon">
                                                 <img src="./assets/images/Optimizing.png" width="45px" alt="" class="img-fluid">
                                             </figure>
-                                            <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                            <a class="arrow text-decoration-none" href="/service/a-content-optimizing"><i class="circle fa-thin fa-arrow-right"></i></a>
                                         </div>
                                         <h4>A+ Content Optimizing</h4>
                                         <ul class="text-left">
@@ -141,7 +135,7 @@
                                             <figure class="service-dataicon">
                                                 <img src="./assets/images/Others.png" width="45px" alt="" class="img-fluid">
                                             </figure>
-                                            <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                            <a class="arrow text-decoration-none" href="/service/others-service"><i class="circle fa-thin fa-arrow-right"></i></a>
                                         </div>
                                         <h4>Others Service</h4>
                                         <ul class="text-left">

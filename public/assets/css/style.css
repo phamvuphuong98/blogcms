@@ -96,6 +96,11 @@ p {
     line-height: 26px;
     color: var(--e-global-color-text);
 }
+.text-size-25 {
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--e-global-color-text);
+}
 
 /* Home Page Style */
 
@@ -2807,4 +2812,8 @@ p {
 }
 .tippy-box[data-theme~='tomato'][data-placement^='right'] > .tippy-arrow::before {
     border-right-color: tomato;
-  }
+}
+.video-yt {
+    width: 1109px;
+    height: 559px
+}

@@ -13,7 +13,7 @@
                         </figure>
                         <figure class="mb-0 service-vedioimage">
                             <!-- <img src="./assets/images/service-vedioimage.jpg" alt="" class="img-fluid"> -->
-                            <iframe width="1109" height="559" src="https://www.youtube.com/embed/r0bCkHUznlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="video-yt" src="https://www.youtube.com/embed/r0bCkHUznlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </figure>
                         <!-- <a class="popup-vimeo" href="https://www.youtube.com/embed/r0bCkHUznlw">
                         <div class="vedio-circle">
@@ -44,12 +44,12 @@
                     <div class="service_contentbox">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="service-box box-mb" style="height: 525px" id="listing">
+                                <div class="service-box box-mb" style="height: 400px" id="listing">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-marketicon">
                                             <img src="./assets/images/listing.png" width="45px" alt="" class="img-fluid">
                                         </figure>
-                                        <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                        <a class="arrow text-decoration-none" href="/service/listing-copywriting"><i class="circle fa-thin fa-arrow-right"></i></a>
                                     </div>
                                     <h4>Listing Copywriting</h4>
                                     <ul class="text-left">
@@ -75,23 +75,17 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="service-box box-mb" style="height: 525px" id="product">
+                                <div class="service-box box-mb" style="height: 400px" id="product">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-producticon">
                                             <img src="./assets/images/producticon.png" width="45px" alt="" class="img-fluid">
                                         </figure>
-                                        <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                        <a class="arrow text-decoration-none" href="/service/product-photography-and-video"><i class="circle fa-thin fa-arrow-right"></i></a>
                                     </div>
                                     <h4>Product Photography and Video</h4>
                                     <ul class="text-left">
                                         <li>
-                                            <span>White Background Studio Images</span>
-                                        </li>
-                                        <li>
-                                            <span>Photo Manipulation Lifestyle Images</span>
-                                        </li>
-                                        <li>
-                                            <span>Amazon Infographic Images</span>
+                                            <span>Amazon Infographic and Lifestyle Images</span>
                                         </li>
                                         <li>
                                             <span>Profession Unbox-Review video with Model</span>
@@ -105,12 +99,12 @@
                         </div>
                         <div class="row" style="margin-top: 25px">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="service-box" style="height: 525px" id="optimizing">
+                                <div class="service-box" style="height: 400px" id="optimizing">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-designicon">
                                             <img src="./assets/images/Optimizing.png" width="45px" alt="" class="img-fluid">
                                         </figure>
-                                        <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                        <a class="arrow text-decoration-none" href="/service/a-content-optimizing"><i class="circle fa-thin fa-arrow-right"></i></a>
                                     </div>
                                     <h4>A+ Content Optimizing</h4>
                                     <ul class="text-left">
@@ -124,12 +118,12 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="service-box" style="height: 525px" id="other">
+                                <div class="service-box" style="height: 400px" id="other">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                         <figure class="service-dataicon">
                                             <img src="./assets/images/Others.png" width="45px" alt="" class="img-fluid">
                                         </figure>
-                                        <a class="arrow text-decoration-none" href="./service.html"><i class="circle fa-thin fa-arrow-right"></i></a>
+                                        <a class="arrow text-decoration-none" href="/service/others-service"><i class="circle fa-thin fa-arrow-right"></i></a>
                                     </div>
                                     <h4>Others Service</h4>
                                     <ul class="text-left">
@@ -166,7 +160,7 @@
                         <li class="text"><i class="circle fa-duotone fa-check"></i>Duis aute irure dolor in reprehenderit in voluptate velio.</li>
                         <li class="text text1"><i class="circle fa-duotone fa-check"></i>Molestiae non recusandae itarue earum rerum maio.</li>
                     </ul> -->
-                        <a class="get_started text-white text-decoration-none" href="/service">Get Started
+                        <a class="get_started text-white text-decoration-none" href="/contact">Get Started
                             <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
                         </a>
                     </div>
@@ -189,7 +183,7 @@
                         <figure class="mb-0 about-image2">
                             <img src="./assets/images/about_2.png" alt="" class="img-fluid">
                         </figure>
-                        <div class="image-circle">
+                        <!-- <div class="image-circle">
                             <div class="years">
                                 <span class="text-white value counter">5</span>
                                 <sup class="text-white mb-0 plus">+</sup>
@@ -198,7 +192,7 @@
                             <figure class="mb-0 about-imagecircle">
                                 <img src="./assets/images/about-imagecircle.png" alt="" class="">
                             </figure>
-                        </div>
+                        </div> -->
                         <figure class="mb-0 about-dot">
                             <img src="./assets/images/about-dot.png" alt="" class="img-fluid">
                         </figure>
