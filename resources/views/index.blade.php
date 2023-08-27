@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="offer_content" data-aos="fade-up">
-                        <h6>The Service we provide</h6>
-                        <h2>WHY SHOULD YOU CHOOSE US</h2>
+                        <h6>Our Services</h6>
+                        <h2>The Service we provide</h2>
                         <p>Unlock your Amazon business potential with our exceptional Listing Creation Services.</p>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                             <div class="lower_portion_wrapper">
                                 <div class="lower_portion">
                                     <h4 class="mb-0">Listing Copywriting</h4>
-                                    <h4 class="mb-0">Start from $50</h4>
+                                    <p class="mb-0">Start from $50</p>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                             <div class="lower_portion_wrapper">
                                 <div class="lower_portion">
                                     <h4 class="mb-0">Product Photography and Video</h4>
-                                    <h4 class="mb-0">Start from $250</h4>
+                                    <p class="mb-0">Start from $250</p>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                             <div class="lower_portion_wrapper">
                                 <div class="lower_portion">
                                     <h4 class="mb-0">A+ Content Optimizing</h4>
-                                    <h4 class="mb-0">Start from $300</h4>
+                                    <p class="mb-0">Start from $300</p>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,6 @@
                             <div class="lower_portion_wrapper">
                                 <div class="lower_portion">
                                     <h4 class="mb-0">Others Service</h4>
-                                    <h4 class="mb-0"> ㅤ</h4>
                                 </div>
                             </div>
                         </div>
@@ -104,13 +103,16 @@
                     <figure class="service-rightcircle mb-0">
                         <img src="./assets/images/service-rightcircle.png" alt="" class="img-fluid">
                     </figure>
-                    <h6>Our Services</h6>
                     <h2>BEST AMAZON LISTING CREATION SERVICES FOR YOUR BUSINESS</h2>
                     <p>Are you in search of exceptional Amazon Listing Creation Services to elevate your business on the Amazon platform? Your search ends here! Our top-tier services are designed to optimize your product listings, captivate a larger customer base, and generate increased sales. Moreover, our services are competitively priced, guaranteeing the utmost value for your investment.
                     </p>
-                    <a class="get_started text-white text-decoration-none" href="/contact">Get Started
-                        <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
-                    </a>
+                    <div class="row form-gray-fields">
+                                    <div class="col-lg-12">
+                                        <div class="form-group text-center">
+                                            <a class="btn font_weight_600" href="/service">LEARN MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
                 </div>
             </div>
         </div>
@@ -254,7 +256,7 @@
         </figure>
     </section> -->
     <!-- Project -->
-    @if(count($portfolios) > 0)
+    <!-- @if(count($portfolios) > 0)
     <section class="project-section">
         <figure class="offer-toplayer mb-0">
             <img src="./assets/images/offer-toplayer.png" alt="" class="img-fluid">
@@ -263,7 +265,6 @@
             <div class="row">
                 <div class="col-12">
                     <div class="project_content" data-aos="fade-right">
-                        <!-- <h6>RECENT PROJECTS</h6> -->
                         <h2>Our Latest Case Projects</h2>
                         <p>Below are some of our passion projects aimed at meeting customer needs and satisfaction</p>
                         <figure class="offer-circleimage mb-0">
@@ -298,7 +299,7 @@
             <img src="./assets/images/offer-bottomlayer.png" alt="" class="img-fluid">
         </figure>
     </section>
-    @endif
+    @endif -->
     <!-- Testimonial -->
     <section class="testimonial-section position-relative">
         <figure class="service-leftlayer mb-0">
