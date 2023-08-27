@@ -107,12 +107,12 @@
                     <p>Are you in search of exceptional Amazon Listing Creation Services to elevate your business on the Amazon platform? Your search ends here! Our top-tier services are designed to optimize your product listings, captivate a larger customer base, and generate increased sales. Moreover, our services are competitively priced, guaranteeing the utmost value for your investment.
                     </p>
                     <div class="row form-gray-fields">
-                                    <div class="col-lg-12">
-                                        <div class="form-group text-center">
-                                            <a class="btn font_weight_600" href="/service">LEARN MORE</a>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="col-lg-12">
+                            <div class="form-group text-center">
+                                <a class="btn font_weight_600" href="/contact">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -602,7 +602,7 @@
                             <tr>
                                 <td style="border: none;"></td>
                                 <th style="display:flex; justify-content: center;border: none;">
-                                    <img src="./assets/images/lgo.png"  width="100px" height="100px"/>
+                                    <img src="./assets/images/lgo.png" width="100px" height="100px" />
                                 </th>
                                 <th style="border: none;">IN HOUSETEAM/ FREELANCER</th>
                             </tr>
