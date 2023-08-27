@@ -1,37 +1,125 @@
 <x-home-layout>
-    <!-- Info vedio -->
-    <div class="vedio-section">
-        <figure class="service-rightlayer mb-0">
-            <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
+    <!-- service -->
+    <section class="offer-section">
+        <figure class="offer-toplayer mb-0">
+            <img src="./assets/images/offer-toplayer.png" alt="" class="img-fluid">
         </figure>
-        <div class="container">
-            <div class="row position-relative" data-aos="fade-up">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="position-relative">
-                        <figure class="mb-0 servicepage-dotimage">
-                            <img src="./assets/images/service-dotimage.png" alt="" class="img-fluid">
-                        </figure>
-                        <figure class="mb-0 service-vedioimage">
-                            <!-- <img src="./assets/images/service-vedioimage.jpg" alt="" class="img-fluid"> -->
-                            <iframe class="video-yt" src="https://www.youtube.com/embed/r0bCkHUznlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </figure>
-                        <!-- <a class="popup-vimeo" href="https://www.youtube.com/embed/r0bCkHUznlw">
-                        <div class="vedio-circle">
-                            <figure class="mb-0 service-vedioicon">
-                                <img class="thumb img-fluid" style="cursor: pointer" src="./assets/images/service-vedioicon.png" alt="">
-                            </figure>
-                        </div>
-                    </a> -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="offer_content" data-aos="fade-up">
+                        <h6>The Service we provide</h6>
+                        <h2>WHY SHOULD YOU CHOOSE US</h2>
+                        <p>Unlock your Amazon business potential with our exceptional Listing Creation Services.</p>
                     </div>
                 </div>
             </div>
+            <div class="row position-relative">
+                <figure class="offer-circleimage mb-0">
+                    <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
+                </figure>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding">
+                    <a href="/service/listing-copywriting">
+                        <div class="offer_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/Listing Copywriting.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <figure class="offer-icon">
+                                        <img src="./assets/images/offer-icon1.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4 class="mb-0">Listing Copywriting</h4>
+                                    <h4 class="mb-0">Start from $50</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding">
+                    <a href="/service/product-photography-and-video">
+                        <div class="offer_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/Product Photography and Video 1.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <figure class="offer-icon offer-icon2">
+                                        <img src="./assets/images/offer-icon2.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4 class="mb-0">Product Photography and Video</h4>
+                                    <h4 class="mb-0">Start from $250</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding">
+                    <a href="/service/a-content-optimizing">
+                        <div class="offer_boxcontent mb-0">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/AContent Optimizing.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <figure class="offer-icon">
+                                        <img src="./assets/images/offer-icon3.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4 class="mb-0">A+ Content Optimizing</h4>
+                                    <h4 class="mb-0">Start from $300</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding">
+                    <a href="/service/others-service">
+                        <div class="offer_boxcontent mb-0">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/Other Service.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <figure class="offer-icon">
+                                        <img src="./assets/images/offer-icon1.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4 class="mb-0">Others Service</h4>
+                                    <h4 class="mb-0"> ㅤ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="service_content position-relative" data-aos="fade-right" style="text-align: center;">
+                    <figure class="service-rightcircle mb-0">
+                        <img src="./assets/images/service-rightcircle.png" alt="" class="img-fluid">
+                    </figure>
+                    <h6>Our Services</h6>
+                    <h2>BEST AMAZON LISTING CREATION SERVICES FOR YOUR BUSINESS</h2>
+                    <p>Are you in search of exceptional Amazon Listing Creation Services to elevate your business on the Amazon platform? Your search ends here! Our top-tier services are designed to optimize your product listings, captivate a larger customer base, and generate increased sales. Moreover, our services are competitively priced, guaranteeing the utmost value for your investment.
+                    </p>
+                    <a class="get_started text-white text-decoration-none" href="/contact">Get Started
+                        <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
+                    </a>
+                </div>
+            </div>
         </div>
-        <figure class="service-leftlayer mb-0">
-            <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
+        <figure class="offer-bottomlayer mb-0">
+            <img src="./assets/images/offer-bottomlayer.png" alt="" class="img-fluid">
         </figure>
-    </div>
+    </section>
     <!-- Service -->
-    <section class="service-section">
+    <!-- <section class="service-section">
         <figure class="service-leftlayer mb-0">
             <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
         </figure>
@@ -154,12 +242,6 @@
                         <h2>BEST AMAZON LISTING CREATION SERVICES FOR YOUR BUSINESS</h2>
                         <p>Are you in search of exceptional Amazon Listing Creation Services to elevate your business on the Amazon platform? Your search ends here! Our top-tier services are designed to optimize your product listings, captivate a larger customer base, and generate increased sales. Moreover, our services are competitively priced, guaranteeing the utmost value for your investment.
                         </p>
-                        <!-- <ul class="list-unstyled mb-0">
-                        <li class="text"><i class="circle fa-duotone fa-check"></i>Quisquam est, rui dolorem ipsum quia dolor corporis.</li>
-                        <li class="text"><i class="circle fa-duotone fa-check"></i>Rem aperiam, eaque ipsa quae ab illo inventore veritatis.</li>
-                        <li class="text"><i class="circle fa-duotone fa-check"></i>Duis aute irure dolor in reprehenderit in voluptate velio.</li>
-                        <li class="text text1"><i class="circle fa-duotone fa-check"></i>Molestiae non recusandae itarue earum rerum maio.</li>
-                    </ul> -->
                         <a class="get_started text-white text-decoration-none" href="/contact">Get Started
                             <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
                         </a>
@@ -170,208 +252,7 @@
         <figure class="service-rightlayer mb-0">
             <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
         </figure>
-    </section>
-    <!-- About Us -->
-    <section class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-2">
-                    <div class="about_wrapper">
-                        <figure class="mb-0 about-image1">
-                            <img src="./assets/images/about_1.jpg" alt="" class="">
-                        </figure>
-                        <figure class="mb-0 about-image2">
-                            <img src="./assets/images/about_2.png" alt="" class="img-fluid">
-                        </figure>
-                        <!-- <div class="image-circle">
-                            <div class="years">
-                                <span class="text-white value counter">5</span>
-                                <sup class="text-white mb-0 plus">+</sup>
-                                <span class="text-white text">Years of Experience</span>
-                            </div>
-                            <figure class="mb-0 about-imagecircle">
-                                <img src="./assets/images/about-imagecircle.png" alt="" class="">
-                            </figure>
-                        </div> -->
-                        <figure class="mb-0 about-dot">
-                            <img src="./assets/images/about-dot.png" alt="" class="img-fluid">
-                        </figure>
-                        <figure class="mb-0 about-leftcircle">
-                            <img src="./assets/images/about-leftcircle.png" alt="" class="img-fluid">
-                        </figure>
-                        <figure class="mb-0 about-layer">
-                            <img src="./assets/images/about-layer.png" alt="" class="img-fluid">
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-1">
-                    <div class="about_content" data-aos="fade-right">
-                        <h6>About us</h6>
-                        <h2 class="text-white">We help Clients invent their future</h2>
-                        <p class="text1">Founded by Jason Phan (a.k.a Phan Thanh Dat), a participant in the e-commerce field since 2018, Jason Private Label (JPL) understands the struggles faced by newcomers and sellers encountering difficulties on Amazon ...</p>
-                        <!-- <p class="text2">By choosing Jason Private Label, we are not just a service provider but a dedicated companion, continuously supporting you throughout your business journey. We will help you build a successful business on Amazon, assisting you in overcoming remaining obstacles and optimizing sales performance.</p> -->
-                        <a class="read_more text-white text-decoration-none" href="/about">Read More
-                            <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <figure class="mb-0 about-rightimage">
-            <img src="./assets/images/about-rightimage.png" alt="" class="img-fluid">
-        </figure>
-        <figure class="mb-0 about-rightcircle">
-            <img src="./assets/images/about-rightcircle.png" alt="" class="img-fluid">
-        </figure>
-    </section>
-    <!-- Offer -->
-    <section class="offer-section">
-        <figure class="offer-toplayer mb-0">
-            <img src="./assets/images/offer-toplayer.png" alt="" class="img-fluid">
-        </figure>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="offer_content" data-aos="fade-up">
-                        <h6>The Service we provide</h6>
-                        <h2>WHY SHOULD YOU CHOOSE US</h2>
-                        <p>Unlock your Amazon business potential with our exceptional Listing Creation Services.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row position-relative">
-                <figure class="offer-circleimage mb-0">
-                    <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
-                </figure>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 article_padding">
-                    <div class="offer_boxcontent">
-                        <div class="upper_portion">
-                            <figure class="mb-0"><img src="./assets/images/offer-image1.jpg" class="article_img" alt=""></figure>
-                            <div class="image_content">
-                                <figure class="offer-icon">
-                                    <img src="./assets/images/offer-icon1.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="lower_portion_wrapper">
-                            <div class="lower_portion">
-                                <h4 class="mb-0">Perfect Solutions for Your Business</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 article_padding">
-                    <div class="offer_boxcontent">
-                        <div class="upper_portion">
-                            <figure class="mb-0"><img src="./assets/images/offer-image2.jpg" class="article_img" alt=""></figure>
-                            <div class="image_content">
-                                <figure class="offer-icon offer-icon2">
-                                    <img src="./assets/images/offer-icon2.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="lower_portion_wrapper">
-                            <div class="lower_portion">
-                                <h4 class="mb-0">We provide Powerful Product Strategies</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 article_padding">
-                    <div class="offer_boxcontent mb-0">
-                        <div class="upper_portion">
-                            <figure class="mb-0"><img src="./assets/images/offer-image3.jpg" class="article_img" alt=""></figure>
-                            <div class="image_content">
-                                <figure class="offer-icon">
-                                    <img src="./assets/images/offer-icon3.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="lower_portion_wrapper">
-                            <div class="lower_portion">
-                                <h4 class="mb-0">Grow your business worldwide with us</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <figure class="offer-bottomlayer mb-0">
-            <img src="./assets/images/offer-bottomlayer.png" alt="" class="img-fluid">
-        </figure>
-    </section>
-    <!-- Achievements -->
-    <!-- <section class="achievement-section">
-    <figure class="service-rightlayer mb-0">
-        <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
-    </figure>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-md-12 col-sm-12 col-12">
-                <div class="achievement_content" data-aos="fade-right">
-                    <figure class="offer-circleimage mb-0">
-                        <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
-                    </figure>
-                    <h6>Achievements</h6>
-                    <h3>Some number of our accomplishments.</h3>
-                    <p>We kindly introduce our impressive track record in Amazon Listing Services. We have achieved remarkable results, optimizing product listings, driving sales conversions, and elevating brand visibility. Join us to leverage our proven success and unlock your product's potential on the Amazon marketplace</p>
-                    <a class="get_started text-white text-decoration-none" href="./about.html">Get Started
-                        <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-7 col-md-12 col-sm-12 col-12">
-                <div class="achievement_wrapper">
-                    <div class="achievement-box box1">
-                        <figure class="icon achievement-icon">
-                            <img src="./assets/images/achievement-clienticon.png" alt="" class="img-fluid">
-                        </figure> 
-                        <div class="wrapper">
-                            <h3>3,860</h3>
-                            <p class="text-size-18 mb-0">Satisfied Clients</p>
-                        </div>
-                    </div> 
-                    <div class="achievement-box box2">
-                        <figure class="icon1 achievement-icon">
-                            <img src="./assets/images/achievement-projecticon.png" alt="" class="img-fluid">
-                        </figure>
-                        <div class="wrapper">
-                            <h3>8,550</h3>
-                            <p class="text-size-18 mb-0">Projects Completed</p>
-                        </div>
-                    </div>
-                    <div class="achievement-box box3">
-                        <figure class="icon achievement-icon">
-                            <img src="./assets/images/achievement-teamicon.png" alt="" class="img-fluid">
-                        </figure> 
-                        <div class="wrapper">
-                            <div class="number number1">
-                                <h3 class="value counter">90</h3>
-                                <span class="plus">+</span>
-                            </div>
-                            <p class="text text-size-18 mb-0">Team Members</p>
-                        </div>
-                    </div> 
-                    <div class="achievement-box box4">
-                        <figure class="icon1 achievement-icon">
-                            <img src="./assets/images/achievement-awardicon.png" alt="" class="img-fluid">
-                        </figure>
-                        <div class="wrapper">
-                            <div class="number">
-                                <h3 class="value counter">180</h3>
-                                <span class="plus">+</span>
-                            </div>
-                            <p class="text text-size-18 mb-0">Awards Win</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <figure class="service-leftlayer mb-0">
-        <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
-    </figure>
-</section> -->
+    </section> -->
     <!-- Project -->
     @if(count($portfolios) > 0)
     <section class="project-section">
@@ -557,7 +438,7 @@
                         <div class="owl-carousel owl-theme">
                             <div class="item">
                                 <div class="service-box box-mb">
-                                    <iframe width="100%" height="100%"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="100%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -569,6 +450,419 @@
             </figure>
         </section>
     </section>
+    <!-- About Us -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-2">
+                    <div class="about_wrapper">
+                        <figure class="mb-0 about-image1">
+                            <img src="./assets/images/about_1.jpg" alt="" class="">
+                        </figure>
+                        <figure class="mb-0 about-image2">
+                            <img src="./assets/images/about_2.png" alt="" class="img-fluid">
+                        </figure>
+                        <!-- <div class="image-circle">
+                            <div class="years">
+                                <span class="text-white value counter">5</span>
+                                <sup class="text-white mb-0 plus">+</sup>
+                                <span class="text-white text">Years of Experience</span>
+                            </div>
+                            <figure class="mb-0 about-imagecircle">
+                                <img src="./assets/images/about-imagecircle.png" alt="" class="">
+                            </figure>
+                        </div> -->
+                        <figure class="mb-0 about-dot">
+                            <img src="./assets/images/about-dot.png" alt="" class="img-fluid">
+                        </figure>
+                        <figure class="mb-0 about-leftcircle">
+                            <img src="./assets/images/about-leftcircle.png" alt="" class="img-fluid">
+                        </figure>
+                        <figure class="mb-0 about-layer">
+                            <img src="./assets/images/about-layer.png" alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-1">
+                    <div class="about_content" data-aos="fade-right">
+                        <h6>About us</h6>
+                        <h2 class="text-white">We help Clients invent their future</h2>
+                        <p class="text1">Founded by Jason Phan (a.k.a Phan Thanh Dat), a participant in the e-commerce field since 2018, Jason Private Label (JPL) understands the struggles faced by newcomers and sellers encountering difficulties on Amazon ...</p>
+                        <!-- <p class="text2">By choosing Jason Private Label, we are not just a service provider but a dedicated companion, continuously supporting you throughout your business journey. We will help you build a successful business on Amazon, assisting you in overcoming remaining obstacles and optimizing sales performance.</p> -->
+                        <a class="read_more text-white text-decoration-none" href="/about">Read More
+                            <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <figure class="mb-0 about-rightimage">
+            <img src="./assets/images/about-rightimage.png" alt="" class="img-fluid">
+        </figure>
+        <figure class="mb-0 about-rightcircle">
+            <img src="./assets/images/about-rightcircle.png" alt="" class="img-fluid">
+        </figure>
+    </section>
+
+    <!-- Achievements -->
+    <!-- <section class="achievement-section">
+    <figure class="service-rightlayer mb-0">
+        <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
+    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                <div class="achievement_content" data-aos="fade-right">
+                    <figure class="offer-circleimage mb-0">
+                        <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
+                    </figure>
+                    <h6>Achievements</h6>
+                    <h3>Some number of our accomplishments.</h3>
+                    <p>We kindly introduce our impressive track record in Amazon Listing Services. We have achieved remarkable results, optimizing product listings, driving sales conversions, and elevating brand visibility. Join us to leverage our proven success and unlock your product's potential on the Amazon marketplace</p>
+                    <a class="get_started text-white text-decoration-none" href="./about.html">Get Started
+                        <figure class="mb-0"><img src="./assets/images/button-arrow.png" alt="" class="img-fluid"></figure>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                <div class="achievement_wrapper">
+                    <div class="achievement-box box1">
+                        <figure class="icon achievement-icon">
+                            <img src="./assets/images/achievement-clienticon.png" alt="" class="img-fluid">
+                        </figure> 
+                        <div class="wrapper">
+                            <h3>3,860</h3>
+                            <p class="text-size-18 mb-0">Satisfied Clients</p>
+                        </div>
+                    </div> 
+                    <div class="achievement-box box2">
+                        <figure class="icon1 achievement-icon">
+                            <img src="./assets/images/achievement-projecticon.png" alt="" class="img-fluid">
+                        </figure>
+                        <div class="wrapper">
+                            <h3>8,550</h3>
+                            <p class="text-size-18 mb-0">Projects Completed</p>
+                        </div>
+                    </div>
+                    <div class="achievement-box box3">
+                        <figure class="icon achievement-icon">
+                            <img src="./assets/images/achievement-teamicon.png" alt="" class="img-fluid">
+                        </figure> 
+                        <div class="wrapper">
+                            <div class="number number1">
+                                <h3 class="value counter">90</h3>
+                                <span class="plus">+</span>
+                            </div>
+                            <p class="text text-size-18 mb-0">Team Members</p>
+                        </div>
+                    </div> 
+                    <div class="achievement-box box4">
+                        <figure class="icon1 achievement-icon">
+                            <img src="./assets/images/achievement-awardicon.png" alt="" class="img-fluid">
+                        </figure>
+                        <div class="wrapper">
+                            <div class="number">
+                                <h3 class="value counter">180</h3>
+                                <span class="plus">+</span>
+                            </div>
+                            <p class="text text-size-18 mb-0">Awards Win</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <figure class="service-leftlayer mb-0">
+        <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
+    </figure>
+    </section> -->
+
+    <!-- Why you should Choose US -->
+    <section class="blog-section">
+        <figure class="offer-toplayer mb-0">
+            <img src="./assets/images/offer-toplayer.png" alt="" class="img-fluid">
+        </figure>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="blog_content" data-aos="fade-right">
+                        <h6>WHY SHOULD YOU CHOOSE US</h6>
+                        <h2>Unlock your Amazon business potential with our exceptional Listing Creation Services</h2>
+                        <figure class="offer-circleimage mb-0">
+                            <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item" style="width: 100%;overflow-x: auto">
+                    <table style="border: none;">
+                        <thead>
+                            <tr>
+                                <td style="border: none;"></td>
+                                <th style="display:flex; justify-content: center;border: none;">
+                                    <img src="./assets/images/lgo.png"  width="100px" height="100px"/>
+                                </th>
+                                <th style="border: none;">IN HOUSETEAM/ FREELANCER</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th style="border-right: none">No hiring cost</th>
+                                <td style="background: #f57428;color: white; font-weight: 600;border-radius: 15px 15px 0 0;border-right: none">✔</td>
+                                <td style="border-right: none;">You need to pay for every hour worked by freelancers</td>
+                            </tr>
+                            <tr>
+                                <th>No employee or tax costs</th>
+                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
+                                <td style="border-right: none;">Increase Your Total Bill by 10% to 30%</td>
+                            </tr>
+                            <tr>
+                                <th>No software or equipment costs</th>
+                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
+                                <td style="border-right: none;">So many Expenses During the Production Phase</td>
+                            </tr>
+                            <tr>
+                                <th>PPC Manager</th>
+                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
+                                <td style="border-right: none;">❌</td>
+                            </tr>
+                            <tr>
+                                <th>All-in-one support</th>
+                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
+                                <td style="border-right: none;">❌</td>
+                            </tr>
+                            <tr>
+                                <th>Copywriter</th>
+                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
+                                <td style="border-right: none;">❌</td>
+                            </tr>
+                            <tr>
+                                <th>20% Lower Cost</th>
+                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
+                                <td style="border-right: none;">❌</td>
+                            </tr>
+                            <tr>
+                                <th>Lifetime Warranty</th>
+                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
+                                <td style="border-right: none;">❌</td>
+                            </tr>
+                            <tr>
+                                <th style="border: none;"></th>
+                                <td style="background: #f57428;color: white; font-weight: 600;border-radius: 0 0 15px 15px;border-right: none">Efficient & Affordable</td>
+                                <td style="border: none;font-weight: 600">Expensive</td>
+                            </tr>
+                        <tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <figure class="offer-bottomlayer mb-0">
+            <img src="./assets/images/offer-bottomlayer.png" alt="" class="img-fluid">
+        </figure>
+    </section>
+    <!-- work flow -->
+    <section class="blog-section-1">
+        <figure class="offer-toplayer mb-0">
+            <img src="./assets/images/offer-toplayer.png" alt="" class="img-fluid">
+        </figure>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="blog_content" data-aos="fade-right">
+                        <h2>Our WorkFlow</h2>
+                        <p>Our process is tailored specifically to get the best Amazon marketplace results. The estimated timeframe for completing the initial version of the entire listing is 10-14 days from the date of receiving the Product Sample.</p>
+                        <figure class="offer-circleimage mb-0">
+                            <img src="./assets/images/offer-circleimage.png" alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-left: 15px; padding-right: 15px">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="blog_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/1.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <div class="content">
+                                        <h3 class="text-white">STEP</h3>
+                                        <h3 class="text-white">1</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4>Reaching Us Out</h4>
+                                    <h4>ㅤ</h4>
+                                    <h4>ㅤ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/2.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <div class="content">
+                                        <h3 class="text-white">STEP</h3>
+                                        <h3 class="text-white">2</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4>Quota & Next Steps Emailed to You</h4>
+                                    <h4>ㅤ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/3.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <div class="content">
+                                        <h3 class="text-white">STEP</h3>
+                                        <h3 class="text-white">3</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4>Onboarding Call & Get JPL's Expert Consulting</h4>
+                                    <h4>ㅤ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/4.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <div class="content">
+                                        <h3 class="text-white">STEP</h3>
+                                        <h3 class="text-white">4</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4>Choose Your Suitable Service Package</h4>
+                                    <h4>ㅤ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/5.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <div class="content">
+                                        <h3 class="text-white">STEP</h3>
+                                        <h3 class="text-white">5</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4>Ship Us Your Product & Provide Us Your Product Infomation</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/6.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <div class="content">
+                                        <h3 class="text-white">STEP</h3>
+                                        <h3 class="text-white">6</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4>Review & Approve Proposal</h4>
+                                    <h4>ㅤ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/7.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <div class="content">
+                                        <h3 class="text-white">STEP</h3>
+                                        <h3 class="text-white">7</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4>Client Revisions</h4>
+                                    <h4>ㅤ</h4>
+                                    <h4>ㅤ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog_boxcontent">
+                            <div class="upper_portion">
+                                <figure class="mb-0"><img src="./assets/images/8.png" class="article_img" alt=""></figure>
+                                <div class="image_content">
+                                    <div class="content">
+                                        <h3 class="text-white">STEP</h3>
+                                        <h3 class="text-white">8</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h4>We Upload to Your Amazon Account For You</h4>
+                                    <h4>ㅤ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <figure class="offer-bottomlayer mb-0">
+            <img src="./assets/images/offer-bottomlayer.png" alt="" class="img-fluid">
+        </figure>
+    </section>
+    <!-- Info vedio -->
+    <div class="vedio-section">
+        <figure class="service-rightlayer mb-0">
+            <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
+        </figure>
+        <div class="container">
+            <div class="row position-relative" data-aos="fade-up">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="position-relative">
+                        <figure class="mb-0 servicepage-dotimage">
+                            <img src="./assets/images/service-dotimage.png" alt="" class="img-fluid">
+                        </figure>
+                        <figure class="mb-0 service-vedioimage">
+                            <iframe class="video-yt" src="https://www.youtube.com/embed/r0bCkHUznlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <figure class="service-leftlayer mb-0">
+            <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
+        </figure>
+    </div>
     <!-- Blog -->
     @if (count($posts) > 0)
     <section class="blog-section">
@@ -591,27 +885,27 @@
                 <div class="owl-carousel owl-theme">
                     @foreach ($posts as $post)
                     <div class="item">
-                    <a href="{{ '/post/'.$post->slug }}">
-                        <div class="blog_boxcontent">
-                            <div class="upper_portion">
-                                <figure class="mb-0"><img style="height: 240px;" src="{{ asset('storage/'.$post->image) }}" class="article_img" alt=""></figure>
-                                <div class="image_content">
-                                    <div class="content">
-                                        <h3 class="text-white counter">{{ $post->day }}</h3>
-                                        <span class="text-white">{{ $post->month }}</span>
+                        <a href="{{ '/post/'.$post->slug }}">
+                            <div class="blog_boxcontent">
+                                <div class="upper_portion">
+                                    <figure class="mb-0"><img style="height: 240px;" src="{{ asset('storage/'.$post->image) }}" class="article_img" alt=""></figure>
+                                    <div class="image_content">
+                                        <div class="content">
+                                            <h3 class="text-white counter">{{ $post->day }}</h3>
+                                            <span class="text-white">{{ $post->month }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lower_portion_wrapper" style="height: 280px">
+                                    <div class="lower_portion">
+                                        <h4>{{ $post->title }}</h4>
+                                        <a class="read_more text-decoration-none" href="{{ '/post/'.$post->slug }}">Read More
+                                            <figure class="arrow mb-0"><img src="./assets/images/blog-arrow.png" alt="" class="img-fluid"></figure>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="lower_portion_wrapper" style="height: 280px">
-                                <div class="lower_portion">
-                                    <h4>{{ $post->title }}</h4>
-                                    <a class="read_more text-decoration-none" href="{{ '/post/'.$post->slug }}">Read More
-                                        <figure class="arrow mb-0"><img src="./assets/images/blog-arrow.png" alt="" class="img-fluid"></figure>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                        </a>
                     </div>
                     @endforeach
                 </div>

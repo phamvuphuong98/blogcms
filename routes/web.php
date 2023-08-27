@@ -53,6 +53,14 @@ Route::get('/service/a-content-optimizing', function() {
 Route::get('/service/others-service', function() {
     return view('service-detail-4');
 })->name('service-detail-4');
+
+Route::get('/term', function() {
+    return view('term');
+})->name('term');
+Route::get('/policy', function() {
+    return view('policy');
+})->name('policy');
+
 Route::get('project', [PortfolioMainController::class, 'index'])->name('project');
 Route::get('/project/{slug}', [PortfolioMainController::class, 'getPortfolioBySlug'])->name('project.show');
 Route::post('form-contact', [HomeController::class, 'formContact'])->name('form.contact');

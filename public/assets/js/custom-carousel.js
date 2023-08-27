@@ -49,6 +49,31 @@ $(document).ready(function() {
         }
     })
 })
+$(document).ready(function() {
+    var owl = $('.blog-section-1 .owl-carousel');
+    owl.owlCarousel({
+        margin: 30,
+        nav: false,
+        loop: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 4500,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 2
+            },
+            768: {
+                items: 5
+            },
+            992: {
+                items: 5
+            }
+        }
+    })
+})
 
 $(document).ready(function() {
     var owl = $('.servicepage-section .owl-carousel');

@@ -23,16 +23,25 @@ class HomeController extends Controller
     {
         $name = $request->input('name');
         $email = $request->input('email');
-        $message = $request->input('message');
+        $message1 = $request->input('message');
 
-        // // Gửi email
-        // Mail::send([], [], function ($message) use ($name, $email, $message) {
+        // // // Gửi email
+        // Mail::send([], [], function ($message) use ($name, $email, $message1) {
         //     $message->from(config('mail.from.address'), config('mail.from.name'));
-        //     $message->to('<your-email-address>');
+        //     $message->to('phamvuphuong98@gmail.com');
         //     $message->subject('New Contact Form Submission');
-        //     $message->setBody('Name: ' . $name . '<br>Email: ' . $email . '<br>Message: ' . $message, 'text/html');
+        //     $message->setBody('Name: ' . $name . '<br>Email: ' . $email . '<br>Message: ' . $message1, 'text/html');
         // });
         
+        Mail::send([], [], function($message) use ($name, $email, $message1) {
+            $message
+            ->from(config('mail.from.address'))
+            ->to('support@jasonprivatelabel.com')
+            ->subject('Contact Us on website')
+            ->html('Name: ' . $name . '<br>Email: ' . $email . '<br>Message: ' . $message1)
+            ->text('Plain Text');
+         });
+
         return redirect()->route('contact')->with('status', 200);
     }
 

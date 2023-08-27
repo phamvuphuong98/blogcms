@@ -21,9 +21,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/service">Services</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="/project">Projects</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="/post">Blogs</a>
                         </li>

@@ -38,16 +38,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12 d-md-block d-none">
+                <div class="col-lg-2 col-md-3 col-sm-12 col-12 d-md-block d-none">
                     <div class="links list-pd">
                         <h4 class="heading text-white">Quick Links</h4>
                         <ul class="list-unstyled mb-0">
                             <li><a href="/" class="text-size-18 text text-decoration-none">Home</a></li>
                             <li><a href="/about" class="text-size-18 text text-decoration-none">About Us</a></li>
                             <li><a href="/service" class="text-size-18 text text-decoration-none">Services</a></li>
-                            <li><a href="/project" class="text-size-18 text text-decoration-none">Project</a></li>
+                            <!-- <li><a href="/project" class="text-size-18 text text-decoration-none">Project</a></li> -->
                             <li><a href="/post" class="text-size-18 text text-decoration-none">Blog</a></li>
                             <li><a href="/contact" class="text-size-18 text text-decoration-none">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 col-12 d-md-block d-none">
+                    <div class="links list-pd">
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="/term" class="text-size-18 text text-decoration-none">Terms of Service</a></li>
+                            <li><a href="/policy" class="text-size-18 text text-decoration-none">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
