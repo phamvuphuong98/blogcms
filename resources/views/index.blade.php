@@ -116,9 +116,6 @@
                 </div>
             </div>
         </div>
-        <figure class="offer-bottomlayer mb-0">
-            <img src="./assets/images/offer-bottomlayer.png" alt="" class="img-fluid">
-        </figure>
     </section>
     <!-- Service -->
     <!-- <section class="service-section">
@@ -301,6 +298,7 @@
     </section>
     @endif -->
     <!-- Testimonial -->
+
     <section class="testimonial-section position-relative">
         <figure class="service-leftlayer mb-0">
             <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
@@ -432,16 +430,19 @@
         <figure class="service-rightlayer mb-0">
             <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
         </figure>
+        @if (count($reviews) > 0)
         <section class="servicepage-section service-section">
             <div class="container">
                 <div class="service_contentbox">
                     <div class="row">
                         <div class="owl-carousel owl-theme">
+                        @foreach ($reviews as $review)
                             <div class="item">
-                                <div class="service-box box-mb">
-                                    <iframe width="100%" height="100%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div  style="width: 270px;height: 300px">
+                                <img  src="{{ asset('storage/'.$review->image) }}" style="width: 100%; height: 100%">
                                 </div>
                             </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
@@ -450,7 +451,9 @@
                 <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
             </figure>
         </section>
+        @endif
     </section>
+
     <!-- About Us -->
     <section class="about-section">
         <div class="container">

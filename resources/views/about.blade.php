@@ -72,8 +72,8 @@
             <img src="./assets/images/offer-bottomlayer.png" alt="" class="img-fluid">
         </figure>
     </section>
-        <!-- Testimonial -->
-        <section class="testimonial-section position-relative">
+    <!-- Testimonial -->
+    <section class="testimonial-section position-relative">
         <figure class="service-leftlayer mb-0">
             <img src="./assets/images/service-leftlayer.png" alt="" class="img-fluid">
         </figure>
@@ -204,23 +204,5 @@
         <figure class="service-rightlayer mb-0">
             <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
         </figure>
-        <section class="servicepage-section service-section">
-            <div class="container">
-                <div class="service_contentbox">
-                    <div class="row">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="service-box box-mb">
-                                    <iframe width="100%" height="100%"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <figure class="service-rightlayer mb-0">
-                <img src="./assets/images/service-rightlayer.png" alt="" class="img-fluid">
-            </figure>
-        </section>
     </section>
 </x-sub-layout>

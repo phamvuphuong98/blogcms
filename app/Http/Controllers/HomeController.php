@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use App\Models\Portfolio;
 use App\Models\Post;
+use App\Models\Review;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
@@ -16,7 +17,8 @@ class HomeController extends Controller
     {
         $posts = Post::whereStatus(true)->with(['category', 'user'])->orderBy('id','desc')->paginate(10);
         $portfolios = Portfolio::orderBy('id','desc')->paginate(10);
-        return view('index', compact('posts', 'portfolios'));
+        $reviews = Review::orderBy('id','desc')->paginate(10);
+        return view('index', compact('posts', 'portfolios', 'reviews'));
     }
 
     public function formContact(Request $request)
