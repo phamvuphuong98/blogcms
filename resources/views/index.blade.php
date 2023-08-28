@@ -1,3 +1,8 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</head>
 <x-home-layout>
     <!-- service -->
     <section class="offer-section">
@@ -439,8 +444,10 @@
                         @foreach ($reviews as $review)
                             <div class="item">
                                 <div  style="width: 270px;height: 300px">
-                                <img  src="{{ asset('storage/'.$review->image) }}" style="width: 100%; height: 100%">
-                                </div>
+                                <a href="{{ asset('storage/'.$review->image) }}">
+                                <img  src="{{ asset('storage/'.$review->image) }}" data-src="{{ asset('storage/'.$review->image) }}"  data-fancybox="gallery" style="width: 100%; height: 100%">
+                                
+                                </a></div>
                             </div>
                             @endforeach
                         </div>
