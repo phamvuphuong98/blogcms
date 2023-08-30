@@ -31,7 +31,7 @@
                             @foreach ($reviews as $review)
                                 <tr class="hover:bg-grey-lighter">
                                     <td class="py-4 px-6 border-b border-grey-light">{{ $review->id }}</td>
-                                    <td class="py-4 px-6 border-b border-grey-light"><img src="{{ asset('storage/' . $review->image) }}" width="100"></td>
+                                    <td class="py-4 px-6 border-b border-grey-light"><img src="{{ asset('storage/' . $review->thumb) }}" width="100"></td>
                                     <td class="py-4 px-6 border-b border-grey-light">
                                         @can('update', $review)
                                             <button

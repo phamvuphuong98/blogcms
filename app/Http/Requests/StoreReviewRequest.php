@@ -24,7 +24,7 @@ class StoreReviewRequest extends FormRequest
     public function rules()
     {
         return [
-            'image' => ['required', 'image', 'mimes:jpeg,png,jpg']
+            'image' => ['required']
         ];
     }
 }

@@ -14,7 +14,10 @@
                 <div class="mb-1">
                     <label class="block text-sm text-gray-600" for="message">Image</label>
                     <input type="file" id="myimage" name="image">
-
+                </div>
+                <div class="mb-1">
+                    <label class="block text-sm text-gray-600" for="message">Thumbnail</label>
+                    <input type="file" id="myimage" name="thumb">
                 </div>
                 <button type="submit" class="px-4 py-1 text-white font-light tracking-wider bg-blue-600 rounded">Add Review</button>
                 </form>

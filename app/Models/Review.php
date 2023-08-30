@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 class Review extends Model
 {
     use HasFactory;
-    protected $fillable = ['image'];
+    protected $fillable = ['image', 'thumb'];
 
     protected function createdAt(): Attribute
     {

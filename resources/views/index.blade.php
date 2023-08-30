@@ -445,8 +445,7 @@
                             <div class="item">
                                 <div  style="width: 270px;height: 300px">
                                 <a href="{{ asset('storage/'.$review->image) }}">
-                                <img  src="{{ asset('storage/'.$review->image) }}" data-src="{{ asset('storage/'.$review->image) }}"  data-fancybox="gallery" style="width: 100%; height: 100%">
-                                
+                                    <img  src="{{ asset('storage/'.$review->thumb) }}" data-src="{{ asset('storage/'.$review->image) }}"  data-fancybox="gallery" style="width: 100%; height: 100%">
                                 </a></div>
                             </div>
                             @endforeach

@@ -25,7 +25,7 @@ class UpdateReviewRequest extends FormRequest
     public function rules()
     {
         return [
-            'image' => ['image', 'mimes:jpeg,png,jpg']
+            'image' => []
         ];
     }
 }

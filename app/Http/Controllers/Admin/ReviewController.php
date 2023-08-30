@@ -55,6 +55,11 @@ class ReviewController extends Controller
             $post_data['image'] = $get_file;
         }
 
+        if ($request->hasfile('thumb')) {
+            $get_file = $request->file('thumb')->store('images/reviews');
+            $post_data['thumb'] = $get_file;
+        }
+
         Review::create($post_data);
 
         return to_route('admin.review.index')->with('message', 'Review Created');
@@ -86,6 +91,12 @@ class ReviewController extends Controller
             Storage::delete($review->image);
             $get_file = $request->file('image')->store('images/reviews');
             $post_data['image'] = $get_file;
+        }
+
+        if ($request->hasfile('thumb')) {
+            Storage::delete($review->thumb);
+            $get_file = $request->file('thumb')->store('images/reviews');
+            $post_data['thumb'] = $get_file;
         }
 
         $review->update($post_data);
