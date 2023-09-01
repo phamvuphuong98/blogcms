@@ -29,7 +29,7 @@
                             <div class="upper_portion">
                                 <figure class="mb-0"><img src="./assets/images/Listing Copywriting.png" class="article_img" alt=""></figure>
                                 <div class="image_content">
-                                    <figure class="offer-icon">
+                                    <figure class="offer-icon" style="margin-bottom: 0 !important; height: 100%; display: flex; align-items: center; justify-content: center;">
                                         <img src="./assets/images/offer-icon1.png" alt="" class="img-fluid">
                                     </figure>
                                 </div>
@@ -38,6 +38,7 @@
                                 <div class="lower_portion">
                                     <h4 class="mb-0">Listing Copywriting</h4>
                                     <p class="mb-0">Start from $50</p>
+                                    <p class="mb-0">(Flexible Price Base On Your Budget)</p>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +50,7 @@
                             <div class="upper_portion">
                                 <figure class="mb-0"><img src="./assets/images/Product Photography and Video 1.png" class="article_img" alt=""></figure>
                                 <div class="image_content">
-                                    <figure class="offer-icon offer-icon2">
+                                    <figure class="offer-icon offer-icon2"  style="margin-bottom: 0 !important; height: 100%; display: flex; align-items: center; justify-content: center;">
                                         <img src="./assets/images/offer-icon2.png" alt="" class="img-fluid">
                                     </figure>
                                 </div>
@@ -58,6 +59,7 @@
                                 <div class="lower_portion">
                                     <h4 class="mb-0">Product Photography and Video</h4>
                                     <p class="mb-0">Start from $250</p>
+                                    <p class="mb-0">(Flexible Price Base On Your Budget)</p>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +71,7 @@
                             <div class="upper_portion">
                                 <figure class="mb-0"><img src="./assets/images/AContent Optimizing.png" class="article_img" alt=""></figure>
                                 <div class="image_content">
-                                    <figure class="offer-icon">
+                                    <figure class="offer-icon"  style="margin-bottom: 0 !important; height: 100%; display: flex; align-items: center; justify-content: center;">
                                         <img src="./assets/images/offer-icon3.png" alt="" class="img-fluid">
                                     </figure>
                                 </div>
@@ -78,6 +80,7 @@
                                 <div class="lower_portion">
                                     <h4 class="mb-0">A+ Content Optimizing</h4>
                                     <p class="mb-0">Start from $300</p>
+                                    <p class="mb-0">(Flexible Price Base On Your Budget)</p>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +92,7 @@
                             <div class="upper_portion">
                                 <figure class="mb-0"><img src="./assets/images/Other Service.png" class="article_img" alt=""></figure>
                                 <div class="image_content">
-                                    <figure class="offer-icon">
+                                    <figure class="offer-icon"  style="margin-bottom: 0 !important; height: 100%; display: flex; align-items: center; justify-content: center;">
                                         <img src="./assets/images/offer-icon1.png" alt="" class="img-fluid">
                                     </figure>
                                 </div>
@@ -97,6 +100,12 @@
                             <div class="lower_portion_wrapper">
                                 <div class="lower_portion">
                                     <h4 class="mb-0">Others Service</h4>
+                                    <ul>
+                                        <li><p class="mb-0">Website Design</p></li>
+                                        <li><p class="mb-0">Marketing Services</p></li>
+                                        <li><p class="mb-0">AI Brand Design</p></li>
+                                        <li><p class="mb-0">Amazon Product Review</p></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -610,57 +619,77 @@
                         <thead>
                             <tr>
                                 <td style="border: none;"></td>
+                                <th style="border: none;">OTHERS IN HOUSETEAM</th>
                                 <th style="display:flex; justify-content: center;border: none;">
                                     <img src="./assets/images/lgo.png" width="100px" height="100px" />
                                 </th>
-                                <th style="border: none;">IN HOUSETEAM/ FREELANCER</th>
+                                <th style="border: none;">UPWORK/ FREELANCERS</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th style="border-right: none">No hiring cost</th>
+                                <th>NO HIRING COST</th>
+                                <td style="border-right: none">✔</td>
                                 <td style="background: #f57428;color: white; font-weight: 600;border-radius: 15px 15px 0 0;border-right: none">✔</td>
-                                <td style="border-right: none;">You need to pay for every hour worked by freelancers</td>
+                                <td style="border-right: none;">You need to pay for every hour worked</td>
                             </tr>
                             <tr>
-                                <th>No employee or tax costs</th>
+                                <th>NO EQUIPMENT OR TAX COSTS</th>
+                                <td>Increase Your Total Bill by 10% to 30%</td>
                                 <td style="background: #f57428;color: white; font-weight: 600">✔</td>
-                                <td style="border-right: none;">Increase Your Total Bill by 10% to 30%</td>
+                                <td style="border-right: none;"> About 5.5% of the purchase amount</td>
                             </tr>
                             <tr>
-                                <th>No software or equipment costs</th>
-                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
-                                <td style="border-right: none;">So many Expenses During the Production Phase</td>
-                            </tr>
-                            <tr>
-                                <th>PPC Manager</th>
+                                <th>CUSTOMER SUPPORT 24/7</th>
+                                <td>❌</td>
                                 <td style="background: #f57428;color: white; font-weight: 600">✔</td>
                                 <td style="border-right: none;">❌</td>
                             </tr>
                             <tr>
-                                <th>All-in-one support</th>
+                                <th>REFUND POLICY</th>
+                                <td>✔</td>
                                 <td style="background: #f57428;color: white; font-weight: 600">✔</td>
                                 <td style="border-right: none;">❌</td>
                             </tr>
                             <tr>
-                                <th>Copywriter</th>
+                                <th>NEXT PURCHASE DISCOUNT</th>
+                                <td>❌</td>
                                 <td style="background: #f57428;color: white; font-weight: 600">✔</td>
                                 <td style="border-right: none;">❌</td>
                             </tr>
                             <tr>
-                                <th>20% Lower Cost</th>
+                                <th>FREE UPLOAD LISTING ON AMAZON</th>
+                                <td>❌</td>
                                 <td style="background: #f57428;color: white; font-weight: 600">✔</td>
                                 <td style="border-right: none;">❌</td>
                             </tr>
                             <tr>
-                                <th>Lifetime Warranty</th>
+                                <th>LIFETIME WARRANTY</th>
+                                <td>❌</td>
+                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
+                                <td style="border-right: none;">❌</td>
+                            </tr>
+                            <tr>
+                                <th>ON TIME DELIVERY</th>
+                                <td>✔</td>
+                                <td style="background: #f57428;color: white; font-weight: 600">✔</td>
+                                <td style="border-right: none;">❌</td>
+                            </tr>
+                            <tr>
+                                <th>BONUS GIFTS</th>
+                                <td>✔</td>
                                 <td style="background: #f57428;color: white; font-weight: 600">✔</td>
                                 <td style="border-right: none;">❌</td>
                             </tr>
                             <tr>
                                 <th style="border: none;"></th>
-                                <td style="background: #f57428;color: white; font-weight: 600;border-radius: 0 0 15px 15px;border-right: none">Efficient & Affordable</td>
-                                <td style="border: none;font-weight: 600">Expensive</td>
+                                <td style="font-weight: 600;border-right: none;border-bottom:none">Expensive</td>
+                                <td style="background: #f57428;color: white; font-weight: 600;border-radius: 0 0 15px 15px;border-right: none;border-bottom:none; display: flex; flex-direction: column;">
+                                <span style="color: rgb(193, 255, 114);font-weight: 600;font-size: 20px">SAVE YOUR</span>
+                                <span style="color: rgb(193, 255, 114);font-weight: 600;font-size: 20px">20% BUDGET</span>
+                                <span style="color: white;font-weight: 600;">ALL-IN-ONE SUPPORT</span>
+                            </td>
+                                <td style="border: none;font-weight: 600">Several Potential Risks</td>
                             </tr>
                         <tbody>
                     </table>
@@ -703,7 +732,7 @@
                             </div>
                             <div class="lower_portion_wrapper">
                                 <div class="lower_portion">
-                                    <h4>Reaching Us Out</h4>
+                                    <h4>Contact Us</h4>
                                     <h4>ㅤ</h4>
                                     <h4>ㅤ</h4>
                                 </div>
@@ -723,7 +752,7 @@
                             </div>
                             <div class="lower_portion_wrapper">
                                 <div class="lower_portion">
-                                    <h4>Quota & Next Steps Emailed to You</h4>
+                                    <h4>Receive Quotation and Workflow Process</h4>
                                     <h4>ㅤ</h4>
                                 </div>
                             </div>
@@ -837,7 +866,7 @@
                             </div>
                             <div class="lower_portion_wrapper">
                                 <div class="lower_portion">
-                                    <h4>We Upload to Your Amazon Account For You</h4>
+                                    <h4>We will help you to upload your full listing to Amazon Seller Account</h4>
                                     <h4>ㅤ</h4>
                                 </div>
                             </div>

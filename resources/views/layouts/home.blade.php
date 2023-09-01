@@ -85,6 +85,9 @@
                             <img-comparison-slider>
                                 <img slot="first" src="./assets/images/Before.png" class="img-before-after"/>
                                 <img slot="second" src="./assets/images/After.png" class="img-before-after"/>
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#000" vector-effect="non-scaling-stroke"></path>
+  </svg>
                             </img-comparison-slider>
                             <!-- <figure class="mb-0 banner-image">
                             <img src="./assets/images/banner-image.png" alt="" class="img-fluid">
