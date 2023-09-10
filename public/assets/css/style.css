@@ -3626,11 +3626,11 @@ table[data-comparing="active"] tbody th {
     width: 0;
     height: 0;
     border-left: 40px solid transparent;
-    border-top: 25px solid #4cb11e;
+    border-top: 25px solid #fa6220;
   }
 
 .print {
-    background-color: #4eb61f;
+    background-color: #fa6220;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3641,7 +3641,7 @@ table[data-comparing="active"] tbody th {
 }
 .jump-text{
     position: relative;
-    top: 20px;
+    top: 10px;
     display: inline-block;
     animation: bounce 0.3s ease infinite alternate;
     font-weight: 600;
@@ -3659,7 +3659,7 @@ table[data-comparing="active"] tbody th {
                    0 7px #ccc, 
                    0 8px #ccc, 
                    0 9px #ccc, 
-                   0 50px 25px rgba(0, 0, 0, 0.2);
+                   0 50px 25px #f86823;
     }
   }
   .jump-text:nth-child(2){
