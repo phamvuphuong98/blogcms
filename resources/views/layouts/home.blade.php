@@ -128,8 +128,9 @@
     </div>
     <a id="so-open" class="s-item print" style="right: 0;z-index: 1000">
         <span class="fa fa-arrow-left"></span></a>
-    <div class="fb-customerchat" attribution="setup_tool" page_id="100088175378109" theme_color="#f86823" logged_in_greeting="Xin chào! Có gì tôi có thể giúp bạn?" logged_out_greeting="Xin chào! Có gì tôi có thể giúp bạn?">
-    </div>
+    <div id="fb-root"></div>
+
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
     <!-- Footer -->
     @include('layouts.footer')
     <!-- Latest compiled JavaScript -->
@@ -164,11 +165,25 @@
             });
         });
     </script>
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "101377634978419");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
     <script>
         window.fbAsyncInit = function() {
             FB.init({
                 xfbml: true,
-                version: 'v13.0'
+                version: 'v17.0'
             });
         };
 
