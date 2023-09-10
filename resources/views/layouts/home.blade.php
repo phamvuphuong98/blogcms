@@ -83,11 +83,11 @@
                     <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                         <div class="banner_wrapper">
                             <img-comparison-slider>
-                                <img slot="first" src="./assets/images/Before.png" class="img-before-after"/>
-                                <img slot="second" src="./assets/images/After.png" class="img-before-after"/>
+                                <img slot="first" src="./assets/images/Before.png" class="img-before-after" />
+                                <img slot="second" src="./assets/images/After.png" class="img-before-after" />
                                 <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
-    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#000" vector-effect="non-scaling-stroke"></path>
-  </svg>
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#000" vector-effect="non-scaling-stroke"></path>
+                                </svg>
                             </img-comparison-slider>
                             <!-- <figure class="mb-0 banner-image">
                             <img src="./assets/images/banner-image.png" alt="" class="img-fluid">
@@ -112,6 +112,24 @@
         </section>
     </div>
     {{ $slot }}
+    <div class="s-soft so-collapse">
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfb3nJx-AvMHrjLAdq7G1MXHIlPyPiMzZbJLez8RZPByPRuuQ/viewform?usp=sf_link" class="s-item" style="background: #f57428">
+            <i class="fa-solid fa-quote-left"></i>
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSetgz41kKkIAonGaMP1RrzW6N-OMvwWJVHhmTnjmVqM1-baTA/viewform?usp=sf_link" target="_blank" class="s-item" style="background: #f57428">
+            <i class="fa-solid fa-diagram-project"></i>
+        </a>
+        <a href="/contact" class="s-item" style="background: #f57428">
+            <i class="fa-solid fa-address-book"></i>
+        </a>
+        <a id="so-close" class="s-item print">
+            <span class="fa fa-arrow-right"></span>
+        </a>
+    </div>
+    <a id="so-open" class="s-item print" style="right: 0;z-index: 1000">
+        <span class="fa fa-arrow-left"></span></a>
+    <div class="fb-customerchat" attribution="setup_tool" page_id="100088175378109" theme_color="#f86823" logged_in_greeting="Xin chào! Có gì tôi có thể giúp bạn?" logged_out_greeting="Xin chào! Có gì tôi có thể giúp bạn?">
+    </div>
     <!-- Footer -->
     @include('layouts.footer')
     <!-- Latest compiled JavaScript -->
@@ -127,10 +145,42 @@
     <script src="assets/js/animation.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
-    <script
-  defer
-  src="https://unpkg.com/img-comparison-slider@7/dist/index.js"
-></script>
+    <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+
+    <script id="rendered-js">
+        window.console = window.console || function(t) {};
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+        $(document).ready(function() {
+            $('#so-close').click(function() {
+                $('.s-soft').addClass('so-collapse');
+                $('#so-open').delay(300).css('right', '0');
+            });
+
+            $('#so-open').click(function() {
+                $('#so-open').css('right', '-60px');
+                $('.s-soft').removeClass('so-collapse');
+            });
+        });
+    </script>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v13.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 
 </html>
