@@ -112,27 +112,29 @@
         </section>
     </div>
     {{ $slot }}
-    <div class="s-soft so-collapse">
-        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfb3nJx-AvMHrjLAdq7G1MXHIlPyPiMzZbJLez8RZPByPRuuQ/viewform?usp=sf_link" class="s-item" style="background: #f57428">
-            <i class="fa-solid fa-quote-left"></i>
-        </a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSetgz41kKkIAonGaMP1RrzW6N-OMvwWJVHhmTnjmVqM1-baTA/viewform?usp=sf_link" target="_blank" class="s-item" style="background: #f57428">
-            <i class="fa-solid fa-diagram-project"></i>
-        </a>
-        <a href="/contact" class="s-item" style="background: #f57428">
-            <i class="fa-solid fa-address-book"></i>
-        </a>
-        <a id="so-close" class="s-item print">
-            <span class="fa fa-arrow-right"></span>
-        </a>
+    <div id="popup1" class="overlay">
+        <div class="s-soft so-collapse">
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfb3nJx-AvMHrjLAdq7G1MXHIlPyPiMzZbJLez8RZPByPRuuQ/viewform?usp=sf_link" class="s-item" style="background: #f57428">
+                <span>Quotation</span>
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSetgz41kKkIAonGaMP1RrzW6N-OMvwWJVHhmTnjmVqM1-baTA/viewform?usp=sf_link" target="_blank" class="s-item" style="background: #f57428">
+                <span>Projects</span>
+            </a>
+            <a href="/contact" class="s-item" style="background: #f57428">
+                <span>Contact</span>
+            </a>
+            <a id="so-close" class="s-item print">
+                <span class="fa fa-arrow-right"></span>
+            </a>
+        </div>
     </div>
-    <a id="so-open" class="s-item print" style="right: 10px;z-index: 1000; width: 250px;height: 100px">
+    <a id="so-open" href="#popup1" class="s-item print" style="right: 10px;z-index: 1000; width: 250px;height: 100px">
         <!-- <span class="fa fa-arrow-left"></span> -->
         <!-- <span><h3 class="nhapnhay">Get Started</h3></span> -->
         <span class="jump-text">G</span>
         <span class="jump-text">E</span>
         <span class="jump-text">T</span>
-        <span class="jump-text">    </span>
+        <span class="jump-text"> </span>
         <span class="jump-text">S</span>
         <span class="jump-text">T</span>
         <span class="jump-text">A</span>
@@ -170,11 +172,13 @@
             $('#so-close').click(function() {
                 $('.s-soft').addClass('so-collapse');
                 $('#so-open').delay(300).css('right', '10px');
+                $('#popup1').removeClass('overlay');
             });
 
             $('#so-open').click(function() {
                 $('#so-open').css('right', '-250px');
                 $('.s-soft').removeClass('so-collapse');
+                $('#popup1').addClass('overlay');
             });
         });
     </script>
