@@ -126,13 +126,13 @@
             <span class="fa fa-arrow-right"></span>
         </a>
     </div>
-    <a id="so-open" class="s-item print" style="right: 0;z-index: 1000; width: 250px;height: 100px">
+    <a id="so-open" class="s-item print" style="right: 10px;z-index: 1000; width: 250px;height: 100px">
         <!-- <span class="fa fa-arrow-left"></span> -->
         <!-- <span><h3 class="nhapnhay">Get Started</h3></span> -->
         <span class="jump-text">G</span>
         <span class="jump-text">E</span>
         <span class="jump-text">T</span>
-        <span class="jump-text">ㅤ</span>
+        <span class="jump-text">    </span>
         <span class="jump-text">S</span>
         <span class="jump-text">T</span>
         <span class="jump-text">A</span>
@@ -169,7 +169,7 @@
         $(document).ready(function() {
             $('#so-close').click(function() {
                 $('.s-soft').addClass('so-collapse');
-                $('#so-open').delay(300).css('right', '0');
+                $('#so-open').delay(300).css('right', '10px');
             });
 
             $('#so-open').click(function() {
