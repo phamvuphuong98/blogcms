@@ -3607,6 +3607,8 @@ table[data-comparing="active"] tbody th {
     width: 110px;
     border-radius: 30px 0 0 30px;
     color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #so-open {
@@ -3627,3 +3629,56 @@ table[data-comparing="active"] tbody th {
 .so-collapse {
     right: -60px;
 }
+.jump-text{
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce 0.3s ease infinite alternate;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  @keyframes bounce{
+    100%{
+      top: -20px;
+      text-shadow: 0 1px #ccc, 
+                   0 2px #ccc, 
+                   0 3px #ccc, 
+                   0 4px #ccc, 
+                   0 5px #ccc,
+                   0 6px #ccc, 
+                   0 7px #ccc, 
+                   0 8px #ccc, 
+                   0 9px #ccc, 
+                   0 50px 25px rgba(0, 0, 0, 0.2);
+    }
+  }
+  .jump-text:nth-child(2){
+    animation-delay:0.1s;
+  }
+  .jump-text:nth-child(3){
+    animation-delay:0.2s;
+  }
+  .jump-text:nth-child(4){
+    animation-delay:0.3s;
+  }
+  .jump-text:nth-child(5){
+    animation-delay:0.4s;
+  }
+  .jump-text:nth-child(6){
+    animation-delay:0.45s;
+  }
+  .jump-text:nth-child(7){
+    animation-delay:0.5s;
+  }
+  .jump-text:nth-child(8){
+    animation-delay:0.55s;
+  }
+  .jump-text:nth-child(9){
+    animation-delay:0.6s;
+  }
+  .jump-text:nth-child(10){
+    animation-delay:0.65s;
+  }
+  .jump-text:nth-child(11){
+    animation-delay:0.7s;
+  }

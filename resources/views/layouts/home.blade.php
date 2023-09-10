@@ -126,8 +126,21 @@
             <span class="fa fa-arrow-right"></span>
         </a>
     </div>
-    <a id="so-open" class="s-item print" style="right: 0;z-index: 1000">
-        <span class="fa fa-arrow-left"></span></a>
+    <a id="so-open" class="s-item print" style="right: 0;z-index: 1000; width: 250px;height: 100px">
+        <!-- <span class="fa fa-arrow-left"></span> -->
+        <!-- <span><h3 class="nhapnhay">Get Started</h3></span> -->
+        <span class="jump-text">G</span>
+        <span class="jump-text">E</span>
+        <span class="jump-text">T</span>
+        <span class="jump-text">ㅤ</span>
+        <span class="jump-text">S</span>
+        <span class="jump-text">T</span>
+        <span class="jump-text">A</span>
+        <span class="jump-text">R</span>
+        <span class="jump-text">T</span>
+        <span class="jump-text">E</span>
+        <span class="jump-text">D</span>
+    </a>
     <div id="fb-root"></div>
 
     <div id="fb-customer-chat" class="fb-customerchat"></div>
@@ -160,7 +173,7 @@
             });
 
             $('#so-open').click(function() {
-                $('#so-open').css('right', '-60px');
+                $('#so-open').css('right', '-250px');
                 $('.s-soft').removeClass('so-collapse');
             });
         });
