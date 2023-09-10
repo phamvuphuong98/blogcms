@@ -3577,7 +3577,7 @@ table[data-comparing="active"] tbody th {
     align-items: end;
     position: fixed;
     top: 35%;
-    right: 40%;
+    right: 33%;
     font-weight: 600;
     z-index: 1000;
     transition: all linear 0.2s;
