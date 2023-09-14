@@ -199,7 +199,7 @@
 
     <script>
         var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "100088175378109");
+        chatbox.setAttribute("page_id", "112698148331140");
         chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
