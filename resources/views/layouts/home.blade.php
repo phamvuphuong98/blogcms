@@ -128,9 +128,17 @@
             </a>
         </div>
     </div>
-    <a id="so-open" href="#popup1" class="s-item print" style="right: 10px;z-index: 1000; width: 250px;height: 100px">
-        <!-- <span class="fa fa-arrow-left"></span> -->
-        <!-- <span><h3 class="nhapnhay">Get Started</h3></span> -->
+    <div class="copyright-footer">
+        <a id="so-open" href="#popup1" class="order_now">
+            <div class="quick-alo-ph-circle"></div>
+            <div class="quick-alo-ph-circle-fill"></div>
+            <div class="quick-alo-ph-btn-icon quick-alo-phone-img-circle">
+                <p style="font-size: 18px; font-weight: 800; line-height: 18px;">GET</p>
+                <p style="font-size: 18px; font-weight: 800; line-height: 0px;">STARTED</p>
+            </div>
+        </a>
+    </div>
+    <!-- <a id="so-open" href="#popup1" class="s-item print" style="right: 10px;z-index: 1000; width: 250px;height: 100px">
         <span class="jump-text">G</span>
         <span class="jump-text">E</span>
         <span class="jump-text">T</span>
@@ -142,7 +150,7 @@
         <span class="jump-text">T</span>
         <span class="jump-text">E</span>
         <span class="jump-text">D</span>
-    </a>
+    </a> -->
     <div id="fb-root"></div>
 
     <div id="fb-customer-chat" class="fb-customerchat"></div>
@@ -171,7 +179,7 @@
         $(document).ready(function() {
             $('#so-close').click(function() {
                 $('.s-soft').addClass('so-collapse');
-                $('#so-open').delay(300).css('right', '10px');
+                $('#so-open').delay(300).css('right', '150px');
                 $('#popup1').removeClass('overlay');
             });
 
